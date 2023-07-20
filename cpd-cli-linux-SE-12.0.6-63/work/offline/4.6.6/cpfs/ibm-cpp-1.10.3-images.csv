@@ -1,5 +1,0 @@
-registry,image_name,tag,digest,mtype,os,arch,variant,insecure,digest_source,image_type,groups
-icr.io,cpopen/ibm-zen-cpp-operator,1.8.4,sha256:c7cfee477b86b3a6dd811d065f4a9d7ec278f353dd62a2abd3bf28f5bd50d4bf,LIST,"","","",0,CASE,"",""
-icr.io,cpopen/ibm-zen-cpp-operator,1.8.4-amd64,sha256:04a7d118701d255b953d03be2c420e2750f3a81ec80660774a325c95830d3ce6,IMAGE,linux,amd64,"",0,CASE,"",""
-icr.io,cpopen/ibm-zen-cpp-operator,1.8.4-ppc64le,sha256:eb63821f5669057fc6adaef6ab54474a8044adffbede171fab64106ecaf8848e,IMAGE,linux,ppc64le,"",0,CASE,"",""
-icr.io,cpopen/ibm-zen-cpp-operator,1.8.4-s390x,sha256:25ff20d9f6518419260cb9290a03e694c400353dcd6e99020fa765a337cc3d4a,IMAGE,linux,s390x,"",0,CASE,"",""
