@@ -88,3 +88,6 @@ time="2023-07-20T23:46:29.149301Z" level=info msg="manage(olm-utils)" event=Info
 time="2023-07-20T23:47:56.216649Z" level=error msg="manage(olm-utils)" error="cmd.Run() failed with exit status 1" event=Exception trace=902f6824-53c1-484e-bce6-3b488a96dbca
 time="2023-07-20T23:47:56.217239Z" level=error msg="manage(olm-utils)" error="Command exception: The get-cr-status command failed (exit status 1). You may find output and logs in the /root/IBM/cp4d-manual-install/cpd-cli/work directory." event=Exception trace=902f6824-53c1-484e-bce6-3b488a96dbca
 time="2023-07-20T23:47:56.218440Z" level=error msg=cpd-cli error="RunPluginCommand:Execution error:  exit status 1" event=Exception trace=902f6824-53c1-484e-bce6-3b488a96dbca
+time="2023-07-21T01:10:18.947183Z" level=error msg="manage(olm-utils)" error="cmd.Run() failed with exit status 2" event=Exception trace=ee1825aa-7a92-4b57-9f50-39d1989f729e
+time="2023-07-21T01:10:18.947421Z" level=error msg="manage(olm-utils)" error="Command exception: The apply-cr command failed (exit status 2). You may find output and logs in the /root/IBM/cp4d-manual-install/cpd-cli/work directory." event=Exception trace=ee1825aa-7a92-4b57-9f50-39d1989f729e
+time="2023-07-21T01:10:18.949909Z" level=error msg=cpd-cli error="RunPluginCommand:Execution error:  exit status 1" event=Exception trace=ee1825aa-7a92-4b57-9f50-39d1989f729e
