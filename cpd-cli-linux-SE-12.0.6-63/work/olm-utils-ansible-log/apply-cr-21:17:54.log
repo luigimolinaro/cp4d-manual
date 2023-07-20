@@ -1,9 +1,0 @@
-2023-07-20 21:17:55,209 p=5923 u=ansible n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
-
-2023-07-20 21:17:55,215 p=5923 u=ansible n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
-
-2023-07-20 21:17:55,372 p=5923 u=ansible n=ansible | PLAY [localhost] *******************************************************************************************************************************
-2023-07-20 21:17:55,391 p=5923 u=ansible n=ansible | TASK [include_role : utils] ********************************************************************************************************************
-2023-07-20 21:17:55,460 p=5923 u=ansible n=ansible | TASK [utils : include_vars] ********************************************************************************************************************
-2023-07-20 21:17:55,587 p=5923 u=ansible n=ansible |  [ERROR]: User interrupted execution
-
