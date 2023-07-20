@@ -1,4 +1,6 @@
 # Ignora il file cpd_vars.sh
 cpd_vars.sh
 cpd-cli/work/
+cpd-cli/cpd-cli-workspace/
+cpd-cli-linux-SE-12.0.6-63/
 cpd-cli-workspace/

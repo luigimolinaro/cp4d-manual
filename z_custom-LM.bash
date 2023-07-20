@@ -1,3 +1,5 @@
+echo "NON LANCIARE!"
+exit 0
 #SCARICO CLOUDCTL
 wget https://github.com/IBM/cloud-pak-cli/releases/download/v3.23.5/cloudctl-linux-amd64.tar.gz
 #SCARICO cpd-CLI
