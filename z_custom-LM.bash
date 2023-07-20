@@ -33,6 +33,6 @@ ${CLI} manage apply-cr \
 ${CLI} manage get-cr-status \
 --cpd_instance_ns=${PROJECT_CPD_INSTANCE}
 #FINALIZE
-${CLI } manage get-cpd-instance-details \
+${CLI} manage get-cpd-instance-details \
 --cpd_instance_ns=${PROJECT_CPD_INSTANCE} \
 --get_admin_initial_credentials=true
