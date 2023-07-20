@@ -725,3 +725,4 @@ from_json)['serverVersion'] is defined }}
 2023-07-20 22:35:07,074 p=5940 u=ansible n=ansible | Not ready yet - Retrying: check if CR status indicates completion for spss-sample in cp4d, max retry 10 times 300s delay [0m[38;5;11m(7 Retries left)
 2023-07-20 22:40:08,700 p=5940 u=ansible n=ansible | Not ready yet - Retrying: check if CR status indicates completion for spss-sample in cp4d, max retry 10 times 300s delay [0m[38;5;11m(6 Retries left)
 2023-07-20 22:45:10,327 p=5940 u=ansible n=ansible | Not ready yet - Retrying: check if CR status indicates completion for spss-sample in cp4d, max retry 10 times 300s delay [0m[38;5;11m(5 Retries left)
+2023-07-20 22:50:11,906 p=5940 u=ansible n=ansible | Not ready yet - Retrying: check if CR status indicates completion for spss-sample in cp4d, max retry 10 times 300s delay [0m[38;5;11m(4 Retries left)

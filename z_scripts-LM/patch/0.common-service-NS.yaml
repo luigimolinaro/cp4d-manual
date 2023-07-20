@@ -1,0 +1,15 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: common-service-maps
+  namespace: kube-public
+data:
+  common-service-maps.yaml: |
+    controlNamespace: cs-control
+    namespaceMapping:
+      - map-to-common-service-namespace: cp4d
+        requested-from-namespace:
+          - cp4d
+      - map-to-common-service-namespace: cp4s-cs
+        requested-from-namespace:
+          - cp4s
