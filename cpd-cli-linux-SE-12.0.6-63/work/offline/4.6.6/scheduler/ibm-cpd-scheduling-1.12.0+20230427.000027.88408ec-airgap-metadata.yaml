@@ -1,0 +1,29 @@
+supportsRelatedImages: true
+admCatalogMirror:
+  sourceCatalogs:
+  - catalog: icr.io/cpopen/ibm-cpd-scheduler-operator-catalog@sha256:a6f91bb6d1b860fb42062f4944cd32f32f70933d9fb839290402047dfa623826
+    imageType: LIST
+    architecture: ""
+    variant: ""
+    os: ""
+    isTopLevelCatalog: "true"
+    mediaType: registry+v1
+    mirrorImageSource: "false"
+  - catalog: icr.io/cpopen/ibm-cpd-scheduler-operator-catalog@sha256:6571e8f083ebc83411709700e91160c4dd1c29bebb8b36da3f814f5cc9fe38aa
+    imageType: IMAGE
+    architecture: amd64
+    variant: ""
+    os: linux
+    isTopLevelCatalog: "false"
+    mediaType: registry+v1
+    mirrorImageSource: "false"
+  - catalog: icr.io/cpopen/ibm-cpd-scheduler-operator-catalog@sha256:ebf6579f6cc53bdfb141c528b6b45ba99025e5bcca655bb83fd93d3d1914bb89
+    imageType: IMAGE
+    architecture: ppc64le
+    variant: ""
+    os: linux
+    isTopLevelCatalog: "false"
+    mediaType: registry+v1
+    mirrorImageSource: "false"
+isc:
+  operators: []

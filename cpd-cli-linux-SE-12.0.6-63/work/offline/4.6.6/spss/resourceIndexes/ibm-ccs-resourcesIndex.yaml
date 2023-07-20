@@ -1,0 +1,694 @@
+apiVersion: v1
+containerImages:
+- caseVersions:
+  - 1.0.3
+  category: catalog
+  digest: sha256:6977529ceb7a9f74a849f02938f059b6ab59754773223bfec444b16564db6a91
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20211116.215732-amd64
+- caseVersions:
+  - 1.0.3
+  category: catalog
+  digest: sha256:1dc358d7e7c0e635419540e15787104c057b26a7fb89e4ebfeede3ca18490f67
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20211116.215732-ppc64le
+- caseVersions:
+  - 1.0.3
+  category: catalog
+  digest: sha256:b369dd9000b29d0238d11a5329f8f29b334fb434b268a84ee6fb8633ee5948dc
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20211116.215732-s390x
+- caseVersions:
+  - 1.0.3
+  category: catalog
+  digest: sha256:1947c55966f8f74c8d144cc2edeac657cf24433315b9df09af57a0cc2596e95f
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-20211116.215732
+- caseVersions:
+  - 1.0.0
+  category: catalog
+  digest: sha256:34854b0b5684d670cf1624d01e659e9900f4206987242b453ee917b32b79f5b7
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: 1.0-20210616.134832
+- caseVersions:
+  - 1.0.1
+  category: catalog
+  digest: sha256:6f538b13bef08d302a75cdf936cf9e3bf20ebd75e776e910699a31a856c966d7
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20210804.222329-amd64
+- caseVersions:
+  - 1.0.1
+  category: catalog
+  digest: sha256:5ec9bbc60b2e1495503560b959d9417ba0db855bc0b4845ea5f798fc58f63286
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20210804.222329-ppc64le
+- caseVersions:
+  - 1.0.1
+  category: catalog
+  digest: sha256:ff4808fd793ee4623cdcab82e13fd844213feb20f68445443e57d2268a9e3299
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20210804.222329-s390x
+- caseVersions:
+  - 1.0.1
+  category: catalog
+  digest: sha256:1c983181cd5fb50c9caef535146e2724e21caba00089e5bfffe8047a05e4216b
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-20210804.222329
+- caseVersions:
+  - 1.0.2
+  category: catalog
+  digest: sha256:f7b34742049ae88931356911554979c9aaf61bbe2eac25d6158dfc9ff48fb71e
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20210927.213832-amd64
+- caseVersions:
+  - 1.0.2
+  category: catalog
+  digest: sha256:6de48fa98b3246f4775cdc28f1b12919beb2fc9e9a6a8efef7a1a5691992b11d
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20210927.213832-ppc64le
+- caseVersions:
+  - 1.0.2
+  category: catalog
+  digest: sha256:74a67ced8a8d3c26f77daeea527d4c5a81a191dfeebf83490520ad01c9592095
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20210927.213832-s390x
+- caseVersions:
+  - 1.0.2
+  category: catalog
+  digest: sha256:5b3b6ef91fd9fc6c18f423fd7f282344879a4a5bce8ed52d4449f47f7bb17d88
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-20210927.213832
+- caseVersions:
+  - 1.0.4
+  category: catalog
+  digest: sha256:55bea03894d83f3339323fe77b554037408919e3b42cfd002ab70f509fc0118e
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20211213.212214-amd64
+- caseVersions:
+  - 1.0.4
+  category: catalog
+  digest: sha256:b822c752ade08e44e2a8c7a218bfff16e4ca3e0f662a6412ef3213445163a299
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20211213.212214-ppc64le
+- caseVersions:
+  - 1.0.4
+  category: catalog
+  digest: sha256:9a9ff0d23ddfe3b8bb68dbcd483b5ac38b9ec8f700f55bf2e5922a82de51a261
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20211213.212214-s390x
+- caseVersions:
+  - 1.0.4
+  category: catalog
+  digest: sha256:38aed2c8541a1f8eb430eeba2980fbca0cbc21de3ef23036e811ab18a7eff5b0
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-20211213.212214
+- caseVersions:
+  - 1.0.5
+  category: catalog
+  digest: sha256:6c97b14be86e510e3d2ff782a6967a2a22de466fd4856950605ee332078be5f3
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20220111.215924-amd64
+- caseVersions:
+  - 1.0.5
+  category: catalog
+  digest: sha256:c4937db1205f78eb927801318c148ccb385b00d55bc1047b49a866feba26f7c2
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20220111.215924-ppc64le
+- caseVersions:
+  - 1.0.5
+  category: catalog
+  digest: sha256:b4444fd934c0e76eb6b282a25b1a54175c2e6395cce17772e5ac8e0df4bd06d3
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20220111.215924-s390x
+- caseVersions:
+  - 1.0.5
+  category: catalog
+  digest: sha256:4a81b9133c9d797ef1d40673d57cf3b1d5463dea710a3d0587628650a7eef817
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-20220111.215924
+- caseVersions:
+  - 1.0.6
+  category: catalog
+  digest: sha256:c8e5caa32676fd3f63747635d0b8255cd7fa38090bf82d52c77e958fff96b2c2
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20220204.210909-amd64
+- caseVersions:
+  - 1.0.6
+  category: catalog
+  digest: sha256:238b75e8e73414195275575965e0d52a46be758a539080496676d8663d8eeb12
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20220204.210909-ppc64le
+- caseVersions:
+  - 1.0.6
+  category: catalog
+  digest: sha256:d8a8c86aeb59e6ce0f79a5baf9337043f1f7d0133393940d0f30cf35c1afd834
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20220204.210909-s390x
+- caseVersions:
+  - 1.0.6
+  category: catalog
+  digest: sha256:768488fba0bbd32707e14760c966efb89899dd0a2549d26d5adc15b7ae14f313
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-20220204.210909
+- caseVersions:
+  - 1.0.7
+  category: catalog
+  digest: sha256:7a1256b6314bc1577dbe9fe5b265f9c06a736953bff648ef0b94d69b831c81e5
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20220308.173231-amd64
+- caseVersions:
+  - 1.0.7
+  category: catalog
+  digest: sha256:4d5f1663a56c9d4a30a8150d819cdc572015c3248c1944457cbc211e6414403c
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20220308.173231-s390x
+- caseVersions:
+  - 1.0.7
+  category: catalog
+  digest: sha256:87fabe8f9b09e89d8c70b34f013963e95c28149d51bc19482ae5ff3e21972dd5
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-20220308.173231
+- caseVersions:
+  - 1.0.8
+  category: catalog
+  digest: sha256:3cb3b4f501ada467e19288530ba86b88adbfe0883d48464ffa46a86a4ee21db8
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20220411.233527-amd64
+- caseVersions:
+  - 1.0.8
+  category: catalog
+  digest: sha256:56661d1014389dbc824404c27231ee3a80ee7008451584247e727add8bfbc71a
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20220411.233527-s390x
+- caseVersions:
+  - 1.0.8
+  category: catalog
+  digest: sha256:db188018ab2348893733159ee721d984c0ebaab106a9719e783d615210bd7803
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-20220411.233527
+- caseVersions:
+  - 1.0.9
+  category: catalog
+  digest: sha256:1ecf5c60252086d16abbf40da28cc19443d935aab089583381ab2fb57c5352ae
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20220511.222015-amd64
+- caseVersions:
+  - 1.0.9
+  category: catalog
+  digest: sha256:40729ecc3b70d67d394b9a546081cad8500ec7cc2662a27649d5a944a493af6e
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-20220511.222015-s390x
+- caseVersions:
+  - 1.0.9
+  category: catalog
+  digest: sha256:2a4b3a55d469cf31ad326306a841659e2a5bb14e12cb9cc7082855e0fa7c7379
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-20220511.222015
+- caseVersions:
+  - 2.0.0
+  category: catalog
+  digest: sha256:9e7448b7b400624007de74efe5bb90f6e184ae728596e8a24278d11c996d13a8
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 2.0-20220609.191001-amd64
+- caseVersions:
+  - 2.0.0
+  category: catalog
+  digest: sha256:4afb5f03e71356bbc7043e4780379343419e849638070a1b75fcb0547187cfb5
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 2.0-20220609.191001-s390x
+- caseVersions:
+  - 2.0.0
+  category: catalog
+  digest: sha256:050d90386740d108f9a0bca747bc0244648dfb9714a2a875be23ea1aa3413dd7
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 2.0-20220609.191001
+- caseVersions:
+  - 2.1.0
+  category: catalog
+  digest: sha256:067a26694ff1ffa9cd8d700b8240800a944086ea77b94ef3a78abaffc688c793
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 2.1-20220707.185417-amd64
+- caseVersions:
+  - 2.1.0
+  category: catalog
+  digest: sha256:42ba8b9f0f9617a0f718c58be0092112bfd37bf71a9a0e6c615cbd48425c25b1
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 2.1-20220707.185417-s390x
+- caseVersions:
+  - 2.1.0
+  category: catalog
+  digest: sha256:1ac4183134153c50e59133632a4d69ace095eec5464cb76ab9585f7a41eb6369
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 2.1-20220707.185417-ppc64le
+- caseVersions:
+  - 2.1.0
+  category: catalog
+  digest: sha256:6c06a65acb161074ae4a70654d091851c72ef7bcb36cfcc371ac5e467df771b7
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 2.1-20220707.185417
+- caseVersions:
+  - 2.2.0
+  category: catalog
+  digest: sha256:0b69798024f0cb36643bafad6b142903df089bf08e3fddbc2a1444bc34219b79
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 2.2-20220810.180532-amd64
+- caseVersions:
+  - 2.2.0
+  category: catalog
+  digest: sha256:718e8ea5b9949d3709c806e53ea464ea97f2b664827d5ecc1a9b2370035675b9
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 2.2-20220810.180532-s390x
+- caseVersions:
+  - 2.2.0
+  category: catalog
+  digest: sha256:0221e0419c3757dea0a27e0da6e68ede127b0bdb8c18d60b0942c523df19a5a9
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 2.2-20220810.180532-ppc64le
+- caseVersions:
+  - 2.2.0
+  category: catalog
+  digest: sha256:346a9e640e31359505e1f1edc2ecd7d8455403865f9376a060e46506ac26d341
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 2.2-20220810.180532
+- caseVersions:
+  - 2.3.0
+  category: catalog
+  digest: sha256:d7c221e9ae91c5e1737b83694f102662a234e534f29b3020f58b5dac44a3fd98
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 2.3-20220916.003047-amd64
+- caseVersions:
+  - 2.3.0
+  category: catalog
+  digest: sha256:cf91005a65b67661b161af1edc1e6eb60edadb74d073bdabf0c386db798f9109
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 2.3-20220916.003047-s390x
+- caseVersions:
+  - 2.3.0
+  category: catalog
+  digest: sha256:7cf54c5d5a4db2a2deaa128be8a266fd4396d13ad0dac6e399a4a2d7264c99b1
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 2.3-20220916.003047-ppc64le
+- caseVersions:
+  - 2.3.0
+  category: catalog
+  digest: sha256:309026589864df869f732a22207338bada1c17eba3304a843a11a43e41ab12c1
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 2.3-20220916.003047
+- caseVersions:
+  - 6.0.0
+  category: catalog
+  digest: sha256:2808aaf806e9c7a704024578ce97235c9028b37de96ccf84b6b51215d843e633
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.0-20221108.194924-amd64
+- caseVersions:
+  - 6.0.0
+  category: catalog
+  digest: sha256:37695f9816c12d70ac2f8326880b3089971966ae8caeb148f45fd33d9116848a
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 6.0-20221108.194924-s390x
+- caseVersions:
+  - 6.0.0
+  category: catalog
+  digest: sha256:5ff9906abb0a82a383de071909c927b9ebfa4edd88705184b07885ca1accb55d
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.0-20221108.194924-ppc64le
+- caseVersions:
+  - 6.0.0
+  category: catalog
+  digest: sha256:e437cdd82eb99316dec8ac425793ebdbb92ff7ccfe12e5c5ec3119d46578387f
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.0-20221108.194924
+- caseVersions:
+  - 6.1.0
+  category: catalog
+  digest: sha256:47af63bca3797034e5c5964ae4a7299010950c781ecb77b54ca164f08fa7a23b
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.1-20221208.212614-amd64
+- caseVersions:
+  - 6.1.0
+  category: catalog
+  digest: sha256:c925ca273305b6d558fe881ccaac31752f53621b6f8c50764e4f4e6bb496bae5
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 6.1-20221208.212614-s390x
+- caseVersions:
+  - 6.1.0
+  category: catalog
+  digest: sha256:58a806790624e486ad2c63e7a4e3b6bea8a37565e9c8e125eb3d4ec375341098
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.1-20221208.212614-ppc64le
+- caseVersions:
+  - 6.1.0
+  category: catalog
+  digest: sha256:7030a569752bc026dedf2b513bb905f2800fea2de547a786519ebae296c32b23
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.1-20221208.212614
+- caseVersions:
+  - 6.3.0
+  category: catalog
+  digest: sha256:3ece3d0dd285732c16b827cdb7dabf047f5a240cf42d321015a2523a89c13ee9
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.3-20230207.212011-amd64
+- caseVersions:
+  - 6.3.0
+  category: catalog
+  digest: sha256:8200e0c75f06ea75d3e8b0282434cb82cf30f86debdbf0340e8a5889f71af9d2
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 6.3-20230207.212011-s390x
+- caseVersions:
+  - 6.3.0
+  category: catalog
+  digest: sha256:be0c0a1efc6854edfa2d4f7d1084ee1d1aa207d097e1eaf2c926367e2bac2150
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.3-20230207.212011-ppc64le
+- caseVersions:
+  - 6.3.0
+  category: catalog
+  digest: sha256:563f32fc5b9b1ecee5c9a6fafcca1762ed9adfdb4e3a07fbd0f60bd996709c6c
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.3-20230207.212011
+- caseVersions:
+  - 6.4.0
+  category: catalog
+  digest: sha256:796681079d4f683c216793ff0cb70ba38bc49bea5d13d84a001c98244bcd970b
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.4-20230316.132954-amd64
+- caseVersions:
+  - 6.4.0
+  category: catalog
+  digest: sha256:1003c479f699e1b2560f15c1df27a9a7ab4a21e63ab01b61b56b72c4b90c2e6e
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 6.4-20230316.132954-s390x
+- caseVersions:
+  - 6.4.0
+  category: catalog
+  digest: sha256:d2c9078c3f7ae958488c3e430261cb90b33f7a17c8bfdd0b10c5119587a021bc
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.4-20230316.132954-ppc64le
+- caseVersions:
+  - 6.4.0
+  category: catalog
+  digest: sha256:ac1554d23116700580d5aa0e62b8785cf3cb5dd9e1d8e268f09d0bf7522836f5
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.4-20230316.132954
+- caseVersions:
+  - 6.5.0
+  category: catalog
+  digest: sha256:4c67c8258a795e90a2fe855b4346dff11c04acd4552ce867ce32f0d094832e65
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.5-20230410.174237-amd64
+- caseVersions:
+  - 6.5.0
+  category: catalog
+  digest: sha256:d38fad78e9072e53b603e65439ac1cd9431777376d29756672b38850091af3e1
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 6.5-20230410.174237-s390x
+- caseVersions:
+  - 6.5.0
+  category: catalog
+  digest: sha256:0cd8da657940c9c749b97f8ef9a862c0fc798a6abf0de5b29176a8a148c984db
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.5-20230410.174237-ppc64le
+- caseVersions:
+  - 6.5.0
+  category: catalog
+  digest: sha256:50a60a82087c478df6a888b277f16995d608b8b74159c6290b3ad5990dd9c333
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.5-20230410.174237
+- caseVersions:
+  - 7.0.0
+  category: catalog
+  digest: sha256:8e5fff1e3746cb7b9f3d1b0fa343a3c3a8b77fbd953e54a79a7ad96eec1fbd01
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 7.0-20230609.013605-amd64
+- caseVersions:
+  - 7.0.0
+  category: catalog
+  digest: sha256:2a1929dd400a50f648b05597fd52e8bf8393388a160be9fd70a949ec07c4f822
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 7.0-20230609.013605-s390x
+- caseVersions:
+  - 7.0.0
+  category: catalog
+  digest: sha256:a88b41e6f9dd09ac89a88f0aee897944e4c0ec9fa19b322b8d7e338a2b391b7f
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 7.0-20230609.013605-ppc64le
+- caseVersions:
+  - 7.0.0
+  category: catalog
+  digest: sha256:8308a32c714740b8c3131d9712680e3e4255014b97de35bab4006c21f7197e76
+  image: cpopen/ibm-cpd-ccs-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 7.0-20230609.013605

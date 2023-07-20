@@ -1,0 +1,2 @@
+top level case,dependencies
+ibm-cp-common-services:1.19.3,ibm-auditlogging:1.20.3;ibm-cert-manager:1.19.3;ibm-cs-commonui:1.21.3;ibm-crossplane-bundle:1.12.3;ibm-events-operator:4.6.0;ibm-cs-healthcheck:1.19.3;ibm-cs-iam:1.19.3;ibm-cpp:1.10.3;ibm-zen:2.14.3;ibm-licensing:1.20.3;ibm-management-ingress:1.19.3;ibm-cs-mongodb:1.18.3;ibm-cs-monitoring:1.19.3;ibm-platform-api-operator:1.19.3

@@ -1,0 +1,14 @@
+name: Backup and restore management plugin top-level commands
+cpd-min-version: 4.0.0
+plugin-id: backup-restore
+plugin-type: executable
+plugin-version: 4.0.0
+executable:
+  darwin: cpdbr
+  linux: cpdbr
+  windows: cpdbr.exe
+  ppc64le: cpdbr
+# s390x: cpdbr
+alias: backup-restore
+alias-help-text: manage backup and restore
+# require-profile-info: true

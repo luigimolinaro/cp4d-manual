@@ -1,0 +1,2248 @@
+apiVersion: v1
+containerImages:
+- caseVersions:
+  - 1.4.0
+  category: catalog
+  digest: sha256:9df1f3d5b16df5d8753a78d8f7bd60f72d47135e139185464cbe7c8edb9ded61
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.8.0-20210608.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.4.0
+  category: catalog
+  digest: sha256:27c45813f3dfe62aa654db36c4f01a34ed189b330c52823fcddbd605ee890a87
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.8.0-20210608.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.4.0
+  category: catalog
+  digest: sha256:31d1b593d7601c69c8a02985b7326766aec68a6379dfea69fbc2c07a6251020a
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.8.0-20210608.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.4.0
+  category: catalog
+  digest: sha256:cc5f6fa46af38278f565ca22ff13ae8a2cd0ae60303d5d3be5dd9395bf4b3771
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.8.0-20210608.000000-000000000
+- caseVersions:
+  - 1.1.15
+  - 1.1.16
+  category: catalog
+  digest: sha256:c0d268b01b22c9f659582a4202134a18cae5014c023d7d38ef1f26e2560365b1
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.6-20201102.165625-54A56C270-linux.amd64
+- caseVersions:
+  - 1.1.15
+  - 1.1.16
+  category: catalog
+  digest: sha256:a4c55e8c49b1fef9bb156ed3b81ce72845d6adb58aab507ecc361beef653fe24
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.6-20201102.165625-54A56C270-linux.ppc64le
+- caseVersions:
+  - 1.1.15
+  - 1.1.16
+  category: catalog
+  digest: sha256:9c6256600701734ed65e06879e5a087545933071d05aa01a0be23df371b3e152
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.6-20201102.165625-54A56C270-linux.s390
+- caseVersions:
+  - 1.1.15
+  - 1.1.16
+  category: catalog
+  digest: sha256:6e1816b1fdee287bf54033ecb1a3f4c096f24ffc8e84de4a96240a3f1d62c37e
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.6-20201102.165625-54A56C270
+- caseVersions:
+  - 1.2.3
+  category: catalog
+  digest: sha256:b658899f84ecf0735151d1e52cf27d92c0c2f0e451af27a56ade3a1e1ba94c39
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.3-20201210.043250-0D04601CB-linux.amd64
+- caseVersions:
+  - 1.2.3
+  category: catalog
+  digest: sha256:08f75f90597518bfb0b25dd292f61c0327d98d71379af05c34117fb8046c01a4
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.3-20201210.043250-0D04601CB-linux.ppc64le
+- caseVersions:
+  - 1.2.3
+  category: catalog
+  digest: sha256:ef586826b2b0163b83cc118e312222fdf609d486aca66be63fe912fc097c5509
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.3-20201210.043250-0D04601CB-linux.s390x
+- caseVersions:
+  - 1.2.3
+  category: catalog
+  digest: sha256:001223d5824213051ee51e847dacc791efb23a810bff8620b84645917d0f235f
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.3-20201210.043250-0D04601CB
+- caseVersions:
+  - 1.2.5
+  category: catalog
+  digest: sha256:4dbf57627b85a9751d087e47d68e2001425d9bb6e6a3774e017177958a88c133
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.5-20210512.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.2.5
+  category: catalog
+  digest: sha256:eb6a0434215a4b681cb92ee08b30c75a976d6735357e95a158fef67db2a17988
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.5-20210512.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.2.5
+  category: catalog
+  digest: sha256:138c9e62e62a6ead1e8a478af7023c69ac22205664a146d6049165c1d2cdf4b4
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.5-20210512.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.2.5
+  category: catalog
+  digest: sha256:73ccd10111f2fb5436f4c92c9ae46ce90fb2f59735e7e3eb1592e527f43cd283
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.5-20210512.000000-000000000
+- caseVersions:
+  - 1.3.3
+  category: catalog
+  digest: sha256:6ab70c5316799f84a3bf953d4a503fb1d3aa487f4cde01373c50475c13f2a036
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.3-20210423.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.3.3
+  category: catalog
+  digest: sha256:7e9054a5c57482e9f95c9658a1ec4116269aa60516c9c46ce692b68bcd4c3790
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.3-20210423.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.3.3
+  category: catalog
+  digest: sha256:728adf2a0e10c1693fde382d5a84c136f29d1ee59e3f234b1bba1edd009d630b
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.3-20210423.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.3.3
+  category: catalog
+  digest: sha256:a7c5319fe09e0c9d6187270fd90b88d96b5289a5ce8d5742a9bdba54bab42fbd
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.3-20210423.000000-000000000
+- caseVersions:
+  - 1.5.1
+  category: catalog
+  digest: sha256:059b41380ca62a5904699610ae4afc7e6ef154e82bb101333e837707477bb80a
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.9.1-20210723.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.5.1
+  category: catalog
+  digest: sha256:28414f78a068d27712f1f47a0ceef2def762a7f76f5ff549e9cead950af57651
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.9.1-20210723.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.5.1
+  category: catalog
+  digest: sha256:df6984c0fadf7ab9d8004adac062a13f87554e326afb55b6427477d3c84f7946
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.9.1-20210723.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.5.1
+  category: catalog
+  digest: sha256:4836b5f6e4d4c8e47fb397a5b7c435a54b06580f9bd33378e89d7e6e6b7de75a
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.9.1-20210723.000000-000000000
+- caseVersions:
+  - 1.7.0
+  category: catalog
+  digest: sha256:1d5b6d32b3157d15cad33d1c4e19464c509f488019db0b243c86027ad06f8296
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.11.0-20210908.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.7.0
+  category: catalog
+  digest: sha256:e1ec79342dc70313d766c8abe2962dab97a614457dd9caab705976893b9df507
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.11.0-20210908.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.7.0
+  category: catalog
+  digest: sha256:d4b4ad277ec951a807a674c39deb8d75106af21a2dd53dbaf6a98dcc5a2164e6
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.11.0-20210908.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.7.0
+  category: catalog
+  digest: sha256:f493f4164783f32a3cf5e739c8963e0cfe188844ecebc3266dbdef5c4106c2d6
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.11.0-20210908.000000-000000000
+- caseVersions:
+  - 1.1.14
+  category: catalog
+  digest: sha256:bfae8c1bf29d67703acd129fb9c4b71aaefbc9b8b2e988fd6aaa6da325dff2c3
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.5-20201023.165625-54A56C270-linux.amd64
+- caseVersions:
+  - 1.1.14
+  category: catalog
+  digest: sha256:552847e4d6731a13d2ab910bf1c171b2ec773a559a706206c696fa0ffbe0b4b1
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.5-20201023.165625-54A56C270-linux.ppc64le
+- caseVersions:
+  - 1.1.14
+  category: catalog
+  digest: sha256:9e0f20aa778af4abd3ec3b7ef3cb147499448c4c3c71878d7938ad899ab428ad
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.5-20201023.165625-54A56C270-linux.s390
+- caseVersions:
+  - 1.1.14
+  category: catalog
+  digest: sha256:f2ae2a98742abae97af9e2367c2519aadea13ad21a6ec8941eeac21651aa515b
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.5-20201023.165625-54A56C270
+- caseVersions:
+  - 1.2.4
+  category: catalog
+  digest: sha256:5876c239db121857687f18ec297dcfb8bf7cc208fdefd4004e65f122e2948730
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.4-20210422.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.2.4
+  category: catalog
+  digest: sha256:d2177f104e2dcf797ad3076336014da6a65aa2c5d72cdc47c6562ff1702e2865
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.4-20210422.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.2.4
+  category: catalog
+  digest: sha256:c4e5537427eb969bb19a330fe87ed9065e47561badf041458fdfb3918f31625d
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.4-20210422.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.2.4
+  category: catalog
+  digest: sha256:710bb7acd3b3d537730333891cccd563822f47f0275b51a3c82b9b4490954773
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.4-20210422.000000-000000000
+- caseVersions:
+  - 1.3.1
+  category: catalog
+  digest: sha256:0ba824fa3ad5cae5fc289d52bbc1cb760cfcac32201ce27f01bece0dd72e89ca
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.1-20210309.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.3.1
+  category: catalog
+  digest: sha256:eae956e0b20710b20dbfa5763bbc077dc6397354a7d5e71490bb5ff86848bee2
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.1-20210309.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.3.1
+  category: catalog
+  digest: sha256:06d270f0f1be4915854c134ab042930b616c6bb89619af63586b60a56718c137
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.1-20210309.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.3.1
+  category: catalog
+  digest: sha256:b6c93ed6bcf29a38e6a25b37d8423633c21390fe85ce14114c5827a299d88c54
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.1-20210309.000000-000000000
+- caseVersions:
+  - 1.4.1
+  category: catalog
+  digest: sha256:e74448e85bfde9708f46a315dde9b3c0930c986781162e599871d020549d0295
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.8.1-20210623.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.4.1
+  category: catalog
+  digest: sha256:c65d7f38f0cd6b53effca8e8d5ee1bb6036c15d2e5c1a671b8f6ed42eed02ac2
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.8.1-20210623.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.4.1
+  category: catalog
+  digest: sha256:de6320edb669065a18afebe46c8be48df9950d17415b822506168dd0eefc70fd
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.8.1-20210623.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.4.1
+  category: catalog
+  digest: sha256:14e662e1930328e18cb8bd206720cefffccc5dc44dcf61206f2d36bc77f6356d
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.8.1-20210623.000000-000000000
+- caseVersions:
+  - 1.8.0
+  category: catalog
+  digest: sha256:52166909f5cd20769ddc87558eda003c6b5b8d130d15a1447ba9e6599354b7b6
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.12.0-20211007.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.8.0
+  category: catalog
+  digest: sha256:96d1a219d70b3101e67b73cc699413fbc623dfc1b46281a12e1d6363d8979452
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.12.0-20211007.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.8.0
+  category: catalog
+  digest: sha256:69f95fe83dc9bf4c9f3c7fed81dd1e536cbd66f0a98779e6c2bffc0a3c003998
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.12.0-20211007.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.8.0
+  category: catalog
+  digest: sha256:b1151a61acb401a0b18960a6d7bca260d72f826234c0be36ae2efc7d60fc47d1
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.12.0-20211007.000000-000000000
+- caseVersions:
+  - 1.8.1
+  category: catalog
+  digest: sha256:c6852d40087f0b5b77a68bb10047dc5ca52fb8f7c25abda4db0556a728cb9a9e
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.12.1-20211020.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.8.1
+  category: catalog
+  digest: sha256:b62c3cb76852dffcf30ab31c9f459daf0381c70a20cc906d594fbceaa4e78d4f
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.12.1-20211020.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.8.1
+  category: catalog
+  digest: sha256:a926289001b2681a09b87e6a0161668408e6f99aef2a3d320576566ebf657593
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.12.1-20211020.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.8.1
+  category: catalog
+  digest: sha256:62d4e76017c4415deb4a80843e820864b774b1c56ebaebe12cac07cc6e47e0b4
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.12.1-20211020.000000-000000000
+- caseVersions:
+  - 1.9.0
+  category: catalog
+  digest: sha256:06346d8166a4c528900c3b6569e7eda65cc3124eeeb85036aa76b1df4fe84f20
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.13.0-20211103.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.9.0
+  category: catalog
+  digest: sha256:43acae16a1f3870c51721a835b9a1724b817300db1b5fa2c3a3cf0b75eca06ac
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.13.0-20211103.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.9.0
+  category: catalog
+  digest: sha256:1ae01e6183ffb4b8346b85075015364073dacc301bc13bdbeaee5b1fc2806d06
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.13.0-20211103.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.9.0
+  category: catalog
+  digest: sha256:6ff86b45b34348cda0405f89f475a8634ce025c6256dbc020b74426c48f8700f
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.13.0-20211103.000000-000000000
+- caseVersions:
+  - 1.2.2
+  category: catalog
+  digest: sha256:d2960e4660a04b9136650623e37a1ce30f1b95231202fe34084a017f3930ac3c
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.2-20201202.043250-37EA481C6-linux.amd64
+- caseVersions:
+  - 1.2.2
+  category: catalog
+  digest: sha256:d445fbbaab37269fabd730f4b1511da6defbb5d06dae11beb3ec5014c486d188
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.2-20201202.043250-37EA481C6-linux.ppc64le
+- caseVersions:
+  - 1.2.2
+  category: catalog
+  digest: sha256:95a60288f61cead5ab4b1d0806837d8c677f46141cd402fbe49407a6a80ea33e
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.2-20201202.043250-37EA481C6-linux.s390x
+- caseVersions:
+  - 1.2.2
+  category: catalog
+  digest: sha256:9eb3bdbe8a4970d0642e7c4c8bdc05feeaf19cb25131c87624c5965d334c5267
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.2-20201202.043250-37EA481C6
+- caseVersions:
+  - 1.5.0
+  category: catalog
+  digest: sha256:8d9dedfd77e31ec2db1f868d9caf0157a2ee62fef12669279e21b94056dc6255
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.9.0-20210714.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.5.0
+  category: catalog
+  digest: sha256:81882debc005b6b875a23bfd579790dee71f9a0c32a46eb29d1f8b51f54ce3fe
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.9.0-20210714.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.5.0
+  category: catalog
+  digest: sha256:2442d4cc589bd6727ace7af55853ed0d59bc65e5657416ff8dd3ac2784f49ffe
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.9.0-20210714.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.5.0
+  category: catalog
+  digest: sha256:0e0912118d46bb0797500d53eac86feab1eac1df14f7e6e54ac98965be395ab2
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.9.0-20210714.000000-000000000
+- caseVersions:
+  - 1.1.12
+  category: catalog
+  digest: sha256:a61d2ca72985784ec13dc6da3d3fc087d68ab9a045d8180d080264d909963a9e
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.4-20201007.230132-54A56C270-linux.amd64
+- caseVersions:
+  - 1.1.12
+  category: catalog
+  digest: sha256:7c18464c5f7e519325cf1397965d47631e9430b7c694bd94b838ce21b2b3246b
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.4-20201007.230132-54A56C270-linux.ppc64le
+- caseVersions:
+  - 1.1.12
+  category: catalog
+  digest: sha256:54ede027da0405fdf40b1424675f29a184594d801f95312a69b3be303a280be9
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.4-20201007.230132-54A56C270-linux.s390
+- caseVersions:
+  - 1.1.12
+  category: catalog
+  digest: sha256:14bc4fa4514757a88e478dacc722821d0050123d8c14546341a8363a3e80559f
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.4-20201007.230132-54A56C270
+- caseVersions:
+  - 1.3.2
+  category: catalog
+  digest: sha256:36695dac219270144e80ccf67ca49b95b537ac3959b5652e8a6d783169931db1
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.2-20210325.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.3.2
+  category: catalog
+  digest: sha256:ca343191cdcb9ceb80b68b5095579881254f637878eadb743bc122002c591749
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.2-20210325.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.3.2
+  category: catalog
+  digest: sha256:a377820194c0d1258555425b55d30238d0dc99f9ca9bd423abb74ea32e404092
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.2-20210325.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.3.2
+  category: catalog
+  digest: sha256:b20aae26ee6fa864c6e9595c3d8cdf9b9d8390fbe8f63769e74bf93fafb95d4b
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.2-20210325.000000-000000000
+- caseVersions:
+  - 1.3.4
+  category: catalog
+  digest: sha256:308ceddbbf4ed5853f120352f865874abc483bfb0a4ef4cfc5a0bb23278b8a4c
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.4-20210429.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.3.4
+  category: catalog
+  digest: sha256:457e609bdc0ca61a55f822543e22339a255b399617dc0c77cbb0fdc9d20d023f
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.4-20210429.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.3.4
+  category: catalog
+  digest: sha256:56502e8ccfd55435bbfa28c4c704374bd8d63523249317ccfca502d26df4a046
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.4-20210429.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.3.4
+  category: catalog
+  digest: sha256:af34c2664232878f68fd050027538ae0750bd648e824f4a9c76f1cc1a70160a9
+  image: ibmcom/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.4-20210429.000000-000000000
+- caseVersions:
+  - 1.6.0
+  category: catalog
+  digest: sha256:bbefa10b5916a824e0cc6d84f6c94d17fdaed1daaa48c5b071b1d2a35bfa3f6e
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.10.0-20210812.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.6.0
+  category: catalog
+  digest: sha256:d6ab7f15a1202ed1dbcf5a54f6a25e3e3d0ae62e6d007f9ba55ed6fb5be09d53
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.10.0-20210812.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.6.0
+  category: catalog
+  digest: sha256:bc9b15dfe2eeb743ff512717fef422f9a12bef5179781732518409df8ce1b84d
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.10.0-20210812.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.6.0
+  category: catalog
+  digest: sha256:6f4e56673ab77a96fe4416e852c78c224d35982c742127131b631c8d261ac720
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.10.0-20210812.000000-000000000
+- caseVersions:
+  - 1.10.0
+  category: catalog
+  digest: sha256:d0c1b6fbb7972e12e25240371b81c548e34aaed61fcd7f736ceeb9b0d543c220
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.14.0-20211201.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.10.0
+  category: catalog
+  digest: sha256:a69d156116b68d7eec3c419d5c30d568d4ca58a74358503adb6bb596f80349d8
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.14.0-20211201.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.10.0
+  category: catalog
+  digest: sha256:22229081c28ac2c176af2bd492d389de33f88876a94abce62785a658f0efe5c4
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.14.0-20211201.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.10.0
+  category: catalog
+  digest: sha256:74b573a5869eacc29823393d24ab10a617f716c6787433b33efc0ae90a2770cb
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.14.0-20211201.000000-000000000
+- caseVersions:
+  - 1.2.6
+  category: catalog
+  digest: sha256:8b5c51523c338fc2849f0ba5f1b3e361529db18e2faea6c043ffea443af5bcfa
+  image: opencloudio/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.6-20211207.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.2.6
+  category: catalog
+  digest: sha256:f59f49bfbcf8a607fb846f834fc83c45d2510721f086cdd6db436e9cbd5539e3
+  image: opencloudio/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.6-20211207.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.2.6
+  category: catalog
+  digest: sha256:eefadbd436f8c4469260e24f4d87b4467a6e7002aff98a841eccf0b6a735e275
+  image: opencloudio/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.6-20211207.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.2.6
+  category: catalog
+  digest: sha256:8ed2bf68004f70a57da252ea75bfe08ff9b26249935018963597ce8362410ef9
+  image: opencloudio/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.6-20211207.000000-000000000
+- caseVersions:
+  - 1.10.1
+  category: catalog
+  digest: sha256:3112300e98c055dec629df99bca1cbcc2dd7b635651fe2f7f355bf3ef1e0b93d
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.14.1-20211215.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.10.1
+  category: catalog
+  digest: sha256:1c939298dfab90f519eabd8853b38df0c4b73c4c741b05fee6c99a4cec1a0b23
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.14.1-20211215.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.10.1
+  category: catalog
+  digest: sha256:19aab757ee2b1ce3b4b08a74a3a6b2ca65af40efb445fce4f50638dc85873ce0
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.14.1-20211215.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.10.1
+  category: catalog
+  digest: sha256:9ab2741ebcad19a6416a952bf1103900bd9fc1c5525be782744a2c9115982e5b
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.14.1-20211215.000000-000000000
+- caseVersions:
+  - 1.2.7
+  category: catalog
+  digest: sha256:9d976e0dd9fae49d24f3ca4e620f4cb9914a4061b0c592465e7d25a8fd287f68
+  image: opencloudio/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.7-20211215.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.2.7
+  category: catalog
+  digest: sha256:bb9aed2ccae25379ec53306ed36f2ab3f2e179ff9a46102f57a3cfcab13f6456
+  image: opencloudio/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.7-20211215.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.2.7
+  category: catalog
+  digest: sha256:1e5bbbacc2a136cbf239589c30b031984315655e9455457e9c537cfd874011df
+  image: opencloudio/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.7-20211215.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.2.7
+  category: catalog
+  digest: sha256:6de61c74e45e8b01efb0105d87325fd85378b38c2df74e6a80eeaeb1452781e7
+  image: opencloudio/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.7-20211215.000000-000000000
+- caseVersions:
+  - 1.10.2
+  category: catalog
+  digest: sha256:28ef638a902eec3111f4166e8087962404a30b5723d6d4bf9ac06e02c67fe0a3
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.14.2-20211222.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.10.2
+  category: catalog
+  digest: sha256:2c43876dbf61ba114341c76b518deb44e4673cbe447d106201ad52526c6717c0
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.14.2-20211222.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.10.2
+  category: catalog
+  digest: sha256:0a9bb577bd7e998d531afb187a769a4e0d47fe28ea3b0581c74665de5add060b
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.14.2-20211222.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.10.2
+  category: catalog
+  digest: sha256:35fd53f72a5721ce5be59070123f9e07903ec86940d3f5a43e2728dab6b8c957
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.14.2-20211222.000000-000000000
+- caseVersions:
+  - 1.2.8
+  category: catalog
+  digest: sha256:02976b64847bcd89467f068d82334f54fac5a34d4dae2f9d7463bb304bccf946
+  image: opencloudio/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.8-20211222.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.2.8
+  category: catalog
+  digest: sha256:0c599830923dc307a3eee9e09424c7bdc0b3a6c3322af59a8338697d6092fed8
+  image: opencloudio/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.8-20211222.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.2.8
+  category: catalog
+  digest: sha256:dfe5d4ddfe0eba95cede096bd32d51bc9868b319a0d6998e91745611ffdda2a6
+  image: opencloudio/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.8-20211222.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.2.8
+  category: catalog
+  digest: sha256:a943849baa62e943132fa13e3e1709511fe6669940e933e2b98c1183519fe263
+  image: opencloudio/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.8-20211222.000000-000000000
+- caseVersions:
+  - 1.11.0
+  category: catalog
+  digest: sha256:93c5b2c693ecb703ecdb45444e6a265359369965db742e949f861f01752bdf03
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.15.0-20220203.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.11.0
+  category: catalog
+  digest: sha256:1d40a34486301e327ca57f4a4ff2c317e039df4b682d5e557d496dc1971d3d08
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.15.0-20220203.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.11.0
+  category: catalog
+  digest: sha256:3966d9945c52e80a51527a09f8c59f848ad1ae600650a281583e07dac5eed53e
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.15.0-20220203.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.11.0
+  category: catalog
+  digest: sha256:2eebb83aa7b7911285c765f96f3740c4154d0c64b8decb1db71e8dbb0961f071
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.15.0-20220203.000000-000000000
+- caseVersions:
+  - 1.11.1
+  category: catalog
+  digest: sha256:1a9ddc2ba2501f7bb479bee1b363a8b92e93bb7dd8d9b1bf53ee3b59e469f9db
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.15.1-20220208.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.11.1
+  category: catalog
+  digest: sha256:cc441083f8bc6e7ddaf7b5bcdbf48aa7d46052d1c0d211a563a6baee5ca4f26d
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.15.1-20220208.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.11.1
+  category: catalog
+  digest: sha256:abce4784fe711753f47f9698068a4524d704b895dabe0b8da92e4484aada4a17
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.15.1-20220208.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.11.1
+  category: catalog
+  digest: sha256:ae7381dd4a82e3dae9f5a5d050df037be8968958765f0a9001805a24ef80df80
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.15.1-20220208.000000-000000000
+- caseVersions:
+  - 1.12.0
+  category: catalog
+  digest: sha256:99eaa4ba965c07ed5afa55634c928a91159567fbbc3fd72344acacfc8e206f46
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.16.1-20220309.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.12.0
+  category: catalog
+  digest: sha256:120e2838bff0b3d5a7c7dd7cb450df2b94021bd2fdcb39055010c084e03a6257
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.16.1-20220309.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.12.0
+  category: catalog
+  digest: sha256:ece4b6b3b07737c5226c2618a8d74562f5ec3de38288e7bf76d7e3714a240926
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.16.1-20220309.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.12.0
+  category: catalog
+  digest: sha256:29a02457822b8ffdfd8947bdd3e77e94d15a18437eb1de2d1b2795746703322c
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.16.1-20220309.000000-000000000
+- caseVersions:
+  - 1.12.2
+  category: catalog
+  digest: sha256:5a22db32146cbc71ffb7290480d6a38a3ad44c1cc2bc0c722aa7f9b4e47bc018
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.16.2-20220315.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.12.2
+  category: catalog
+  digest: sha256:95a10db4f5e56d1909f3057d29d1f55e496d07d64d2d41210d992e8cfe1c4d9b
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.16.2-20220315.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.12.2
+  category: catalog
+  digest: sha256:3e6bae2af37ada5e0a0af08a3b9977662b00a8cd5875aa8b57ea91a002384139
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.16.2-20220315.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.12.2
+  category: catalog
+  digest: sha256:123df20050f9f9dcce79ac4980d76e98831850a00990e878baf00826a2bf3f5a
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.16.2-20220315.000000-000000000
+- caseVersions:
+  - 1.12.3
+  category: catalog
+  digest: sha256:057b3e0bb96777894f2765c7be04f3c0f1e9273e475250bbc4032db9d02e6b63
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.16.3-20220318.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.12.3
+  category: catalog
+  digest: sha256:d812b8f34757527a045cb1e69f8845e45ca8a8ffb8eabdc4b248408835bb8ec6
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.16.3-20220318.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.12.3
+  category: catalog
+  digest: sha256:c7bddcbbfa9de14d37611f693e8fbba36d791c64d0214a13393623621a77dc90
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.16.3-20220318.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.12.3
+  category: catalog
+  digest: sha256:b2f1eb67e1f42c80cf9c22e4faadbcb3b0fbc3c54d181cc68e5812e6e432e72f
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.16.3-20220318.000000-000000000
+- caseVersions:
+  - 1.13.0
+  category: catalog
+  digest: sha256:f637b2888f7be48760b3925e906216f8565ab6b036172b21c87506fbdd53020a
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.17.0-20220406.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.13.0
+  category: catalog
+  digest: sha256:502bb3662d16dcaf6934c32dc95f0761abfad19117547bf492486b3863545c68
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.17.0-20220406.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.13.0
+  category: catalog
+  digest: sha256:d5253139a9ebf8047bca84138e39f1b5b4343295ac73098567cc779780e20249
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.17.0-20220406.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.13.0
+  category: catalog
+  digest: sha256:c7548371c9085492e59a813547618034c5a5628e40437b796e4151c664efd01e
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.17.0-20220406.000000-000000000
+- caseVersions:
+  - 1.14.0
+  category: catalog
+  digest: sha256:62188c76564d7dc75e1c1b58ccf8fdb45a360c1ec956e68a385956c1bbdbc72e
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.18.0-20220513.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.14.0
+  category: catalog
+  digest: sha256:54ec69dd4c4949a7ccf41ec55d16841b0eba91e37d3c00a546beb8c0ba02f287
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.18.0-20220513.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.14.0
+  category: catalog
+  digest: sha256:5db7179abcf3a255cdf6aa03c2803bfbc966cd684c7601867df38c91c299c8f8
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.18.0-20220513.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.14.0
+  category: catalog
+  digest: sha256:5739bd0500b1b23a2be314a668f7e2cf8bd1eb6403010068a0e33bd073287b9f
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.18.0-20220513.000000-000000000
+- caseVersions:
+  - 1.15.0
+  category: catalog
+  digest: sha256:8fb50af805915ba40e69aaa123dcb0cb859921e476d02adf109e62130b6d1008
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.0-20220620.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.15.0
+  category: catalog
+  digest: sha256:bee3153f24a5429a39ce3b7c48abcddd18c5be9569dc6a3d7543c3367d9983fb
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.0-20220620.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.15.0
+  category: catalog
+  digest: sha256:3ba2a61ba0320cd81fbdecab3665c6e8bddd8491359bd781a9104d5baf911e30
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.0-20220620.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.15.0
+  category: catalog
+  digest: sha256:87904dee339ee4bbcbdc07949abc8df82bf6d85706f90795e6dae5e45f876b19
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.19.0-20220620.000000-000000000
+- caseVersions:
+  - 1.15.1
+  category: catalog
+  digest: sha256:44547f8e1e0b3fe361e54dc16e31acac2f1a7944c7b01e4769312c646e03303d
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.1-20220713.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.15.1
+  category: catalog
+  digest: sha256:0321d38e156115c3bf93bb5e7787279c7479607eeea4ae11b7ce8919e7f6582b
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.1-20220713.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.15.1
+  category: catalog
+  digest: sha256:878fe2bba591baacf881811e2e6ed844d4b0f1bdc77bd8272f7f12c23e577fe7
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.1-20220713.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.15.1
+  category: catalog
+  digest: sha256:05923ddfc12873afea0dc8d2053e859bbc58821f6cab2cb0f9a9a5eceb1cc125
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.19.1-20220713.000000-000000000
+- caseVersions:
+  - 1.15.2
+  category: catalog
+  digest: sha256:2846cb84acd6c7f657fcff3eb0c717a9401a209783b72a0f1104d73d5675bec6
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.2-20220719.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.15.2
+  category: catalog
+  digest: sha256:b0d2e899486f2f80b44bc350c3a97fb17346acc30cc29aa871a68c31b9348f8e
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.2-20220719.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.15.2
+  category: catalog
+  digest: sha256:eb7b368731b77cd2d6a0f5dd1c016c69efdc2cc2df4708e8cf17e1316d394cb8
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.2-20220719.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.15.2
+  category: catalog
+  digest: sha256:d538cbe3854a071decf2639e2c17184bc0ed34c7352239029b6a132f3f510f10
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.19.2-20220719.000000-000000000
+- caseVersions:
+  - 1.16.0
+  category: catalog
+  digest: sha256:e2184766dff61719a3d341589e46b8d1ef98a2b8e367ad737f8da03a44eb96dc
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.20.0-20220805.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.16.0
+  category: catalog
+  digest: sha256:22fa7a4e8a7f082420fc15d08f735fa301c8dcffb47219a736eb9f7f650ecd67
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.20.0-20220805.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.16.0
+  category: catalog
+  digest: sha256:76fc769c33241178c37bb864e1c8e1bb0a02a06d169d6a0a4fc0d20af45c8f69
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.20.0-20220805.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.16.0
+  category: catalog
+  digest: sha256:38df78b4e23b22d7fa2b24eac693c45a1bc66c6f94b5ea5cffe11a5f41620927
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.20.0-20220805.000000-000000000
+- caseVersions:
+  - 1.15.3
+  category: catalog
+  digest: sha256:431fe67283189cd83bd03c681b486431e521491ec675da149622ba808b6a79c4
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.3-20220809.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.15.3
+  category: catalog
+  digest: sha256:a42c643c651fcc2fe3e1fc3057b17c56933cbab98a5b4356803997bd4eec90e4
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.3-20220809.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.15.3
+  category: catalog
+  digest: sha256:7f34b42c250c75a090b81435b0df1b8493a1e95eac867460b687be09cf034894
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.3-20220809.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.15.3
+  category: catalog
+  digest: sha256:c8d461f5d9f933cbae94e84dd28643f0874a58a04d56de23181610c65c473314
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.19.3-20220809.000000-000000000
+- caseVersions:
+  - 1.16.1
+  category: catalog
+  digest: sha256:858370b444decc9e2817737caeae405fdc85f6d5ac9a7726ef8246901cd251ff
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.20.1-20220817.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.16.1
+  category: catalog
+  digest: sha256:a3dd1a25a4be011efc026572c6ad3100e8dcc2f84c90e1abfcd3bccbce73646c
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.20.1-20220817.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.16.1
+  category: catalog
+  digest: sha256:a29883ee2d08a5f72976193842daaa240ac34dae1a7e2b4afbefa74f25d5861e
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.20.1-20220817.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.16.1
+  category: catalog
+  digest: sha256:9a42de26366cf209a9dcc3b3dddc405b3a6dc079d8d81ae19c4c228f9347e530
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.20.1-20220817.000000-000000000
+- caseVersions:
+  - 1.15.4
+  category: catalog
+  digest: sha256:50739c8fb13918f50c50363988aa4d9fba4974388a3a3b1199a48cfd5687ca9a
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.4-20220902.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.15.4
+  category: catalog
+  digest: sha256:a991671e24e2bf272185ef1c9d46afab6f54d2d9f9276a599dade631072539e1
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.4-20220902.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.15.4
+  category: catalog
+  digest: sha256:2b1dfa7607378f20fcbda3245d8398f1cc90c1d93277822d12397d89e7aa7d1f
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.4-20220902.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.15.4
+  category: catalog
+  digest: sha256:1bbe0b64eff34890c409d687085dd7497e5b3d239fbb307e90abe90ff64b4294
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.19.4-20220902.000000-000000000
+- caseVersions:
+  - 1.17.0
+  category: catalog
+  digest: sha256:36656d468c52721c8fa1660edd845713e23f275ffd987baeda50bd5142a2cb31
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.21.0-20220916.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.17.0
+  category: catalog
+  digest: sha256:4b5724ba9adaa82766099dc5ae81a2f5c428607977b6ae7d432c9524f755ad94
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.21.0-20220916.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.17.0
+  category: catalog
+  digest: sha256:26f98c340286fc4e0a2419837ac95663fd2f2fc555f8c3279394cb5530136439
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.21.0-20220916.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.17.0
+  category: catalog
+  digest: sha256:da04da86e347a9ecfdd0fadbf4a6f25057bac15377d2e9dd6a83227ebc545ab1
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.21.0-20220916.000000-000000000
+- caseVersions:
+  - 1.15.5
+  category: catalog
+  digest: sha256:14da0ddb4d03e9102e6c14f26dafe16e52c221264395a459e9149775b4a67d3e
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.5-20221003.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.15.5
+  category: catalog
+  digest: sha256:7440a00eaa76c76cff45b774e5076d516fca27ad3f101201a5a6593f17356635
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.5-20221003.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.15.5
+  category: catalog
+  digest: sha256:b505c5efdba25c4b94f13e932400d903203f552de5a7f88fe31c5b4df6604b8b
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.5-20221003.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.15.5
+  category: catalog
+  digest: sha256:1d8df0f8490b12c5fad3e0b51e3efaffba3d1cbb4c92ceafa3fa9e32606bc524
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.19.5-20221003.000000-000000000
+- caseVersions:
+  - 1.15.6
+  category: catalog
+  digest: sha256:fd97bc5667b90ea83aff167c9751a24e27745a90e71a065ad5a516af74f11175
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.6-20221105.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.15.6
+  category: catalog
+  digest: sha256:151b98facc17807a04b74f39772341563aa51978f9256c372a04de178de4ed25
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.6-20221105.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.15.6
+  category: catalog
+  digest: sha256:5bf9068b39706a8ee608ab506315d563422427179c7ce351ba72f88a09bd9044
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.6-20221105.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.15.6
+  category: catalog
+  digest: sha256:35b02c818cc3803e9f85178604a7f840d9fec5c60a1a390e59198b1b909a3886
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.19.6-20221105.000000-000000000
+- caseVersions:
+  - 1.18.0
+  category: catalog
+  digest: sha256:36c410c39a52c98919f22f748e67f7ac6d3036195789d9cfbcd8a362dedbb2bd
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.22.0-20221117.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.18.0
+  category: catalog
+  digest: sha256:708d6182abe8085642170d83afc53250f3ebd8418735040c753cc229c30c8134
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.22.0-20221117.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.18.0
+  category: catalog
+  digest: sha256:c8149ddbb58312d7f84a6042870e457103fc3a8d0f4de57d34b643a88d78e807
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.22.0-20221117.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.18.0
+  category: catalog
+  digest: sha256:54a294b34afe71ceede6ebe6c8922b5a8accc7ca3bc23a828b885fc795d32c72
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.22.0-20221117.000000-000000000
+- caseVersions:
+  - 1.15.7
+  category: catalog
+  digest: sha256:9cd6607c89be27b2be002df50d1aff573666f10a7d7943d152693641c9408823
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.7-20221203.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.15.7
+  category: catalog
+  digest: sha256:14f277de6f7bb59aff5f723773f5dc6b6568e287d350b0e3e887884be33951c1
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.7-20221203.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.15.7
+  category: catalog
+  digest: sha256:22419c5853636b505da85f0e9742dd94b124627a3c985b4417eb789a13cd207a
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.7-20221203.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.15.7
+  category: catalog
+  digest: sha256:91503614f5cac3bcac8b89c915dd01b7cb02058a84b53ce7c976cd1b6c1e435a
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.19.7-20221203.000000-000000000
+- caseVersions:
+  - 1.19.0
+  category: catalog
+  digest: sha256:9e452b4f66fc003bbc27cd3d5c99b75631ebdeb7dcec90339169ff86f524bb89
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.0-20230118.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.19.0
+  category: catalog
+  digest: sha256:8b59d1007b679ba726b4796a31f3f4dccd02c930c0fc6a656ec9fc7dcfa82bde
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.0-20230118.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.19.0
+  category: catalog
+  digest: sha256:c74ecf6f9232605b20c05fb4ae794afb8f6e515f7a60e5100b97008550aac8c2
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.0-20230118.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.19.0
+  category: catalog
+  digest: sha256:12744600eaa9d509ecca3d0a7d48f1fe022fade59eacd7c8f646c1d0f1e9dd64
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.23.0-20230118.000000-000000000
+- caseVersions:
+  - 1.15.8
+  category: catalog
+  digest: sha256:af8c97dfd0874f32a76622a4851b76d7be920784a67817fda10313d805f8383f
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.8-20230201.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.15.8
+  category: catalog
+  digest: sha256:5df2ab7abc60d22fab9c4dbd7085d92276f74bdad0c28f24554d12d7b7a7486e
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.8-20230201.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.15.8
+  category: catalog
+  digest: sha256:a420a206a099932c720f357901ab1c827389f520c4afda256ec6343bdd1d933a
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.8-20230201.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.15.8
+  category: catalog
+  digest: sha256:d716688e8305aef4911a006a1bf1f819325580b16151f760ddcbee7e69d5c605
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.19.8-20230201.000000-000000000
+- caseVersions:
+  - 1.15.9
+  category: catalog
+  digest: sha256:268dcb00e19877c6ed5e179965cfc149c6077b483d25c7cb5be07d03d2c73f5d
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.9-20230227.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.15.9
+  category: catalog
+  digest: sha256:5c770fb5569c4453dfb6e48a074dab08f5ecbcdaa8bf30dc2eb0ba4232b7385e
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.9-20230227.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.15.9
+  category: catalog
+  digest: sha256:3145e3ca48f72d53b574e6f1e4d6dd8780b42adcbf1dd7338bd1eabe51c5f826
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.9-20230227.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.15.9
+  category: catalog
+  digest: sha256:aec71d767011399764c01abbed4c30861121b30520318c001a29959ef5b7bf89
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.19.9-20230227.000000-000000000
+- caseVersions:
+  - 1.19.1
+  category: catalog
+  digest: sha256:a54272a86a4b630f85b7ab162f36d8425ca62e5092b18f934a7a81dca9238b33
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.1-20230227.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.19.1
+  category: catalog
+  digest: sha256:d595a6debc6502e2b175c6a84521d3e711560741c316d9d623e707ecfa96c292
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.1-20230227.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.19.1
+  category: catalog
+  digest: sha256:2492d377e66b8a3cf2a39cfe80961a6accfc42e65d23af89d576395a3431569d
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.1-20230227.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.19.1
+  category: catalog
+  digest: sha256:95ed8b2bd8e2e77f863557d27e591ea15dd667159d9c52059492533c6ba0f270
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.23.1-20230227.000000-000000000
+- caseVersions:
+  - 1.15.10
+  category: catalog
+  digest: sha256:48fea1735cd5b24c99b2c98009363fd0a2e8776b4f6756982ba75f75d939f07f
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.10-20230404.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.15.10
+  category: catalog
+  digest: sha256:8a311d9efb631f42f1df2c9a0c329e9eda6887af365d3eb59061f0e746e46eb7
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.10-20230404.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.15.10
+  category: catalog
+  digest: sha256:91fa7f356de83fb8f8071bcada1105aba406eeb5262722924c691389748e10f4
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.10-20230404.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.15.10
+  category: catalog
+  digest: sha256:a8446e8b4d489147d6e2551ac983d2be0cbfd83d32daab0cee15fd56ec5a3a78
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.19.10-20230404.000000-000000000
+- caseVersions:
+  - 1.19.2
+  category: catalog
+  digest: sha256:8e74c9a552885af0402a6f370088aa657c7a9001d4ce5127b6f2074d373e4429
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.2-20230404.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.19.2
+  category: catalog
+  digest: sha256:3753c2eef9ae566c0f07718215d58f898a8c6e1c8e33cfe73c4e053a2c4a8ed7
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.2-20230404.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.19.2
+  category: catalog
+  digest: sha256:4e7957d0cd3a0e763ffe942507955f61f018d6b30d79edd937875356bd32b37b
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.2-20230404.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.19.2
+  category: catalog
+  digest: sha256:6b32fdacd80de2e4a38536557316a2346a0117d810127fc6b19cd72fe6c20bb9
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.23.2-20230404.000000-000000000
+- caseVersions:
+  - 1.19.3
+  category: catalog
+  digest: sha256:0249c5515aee42cddf2b2f5918f581fd99a5e8125b1a4091584156c5c8b84459
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.3-20230503.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.19.3
+  category: catalog
+  digest: sha256:739d194daeff9f90ca6b230bf7ef8eb27b1d95fa55eb36135c84f2732b16b4b0
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.3-20230503.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.19.3
+  category: catalog
+  digest: sha256:dae084a61c5cbf08e3b6ae0ab334120181859516ff1fa7c0ebcaffc3bf4ab8b1
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.3-20230503.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.19.3
+  category: catalog
+  digest: sha256:f5d2719f3e558e56fbbd0286a881a5a812e413337ef129d4ddea1285d3339a76
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.23.3-20230503.000000-000000000
+- caseVersions:
+  - 1.15.11
+  category: catalog
+  digest: sha256:0cd752830a46e6c4d1552c53bcfa6ef192986237a822dfd0455c74fc7e1ea0a9
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.11-20230503.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.15.11
+  category: catalog
+  digest: sha256:dd3057b48dc0e967ba142b2741b4f49e23d9c1b8ded0d7e3bee54a59ccdc5aec
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.11-20230503.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.15.11
+  category: catalog
+  digest: sha256:a0aefdf1248d3611154abd514ae65c800f360fcc29fe00d901f53120ae56a7fb
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.11-20230503.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.15.11
+  category: catalog
+  digest: sha256:8df54507502e8885b3e3e40d27f83fe7d79e241909d32a7d9c8a57f0605fd9d1
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.19.11-20230503.000000-000000000
+- caseVersions:
+  - 1.15.12
+  category: catalog
+  digest: sha256:692fb564d681a2627aba8b5ed16f88286b511b5d87b56f13edb26f6bdf3dd592
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.12-20230603.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.15.12
+  category: catalog
+  digest: sha256:6a8a79e15ba292b57b8e26a2c5c4fad959e4ba3c41fb146f8b78d8efef7a66a9
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.12-20230603.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.15.12
+  category: catalog
+  digest: sha256:ba854b6af8c49db2a11b66a3ba4092caa13787fe01a7767bd5e37d3a7fdbcde8
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.12-20230603.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.15.12
+  category: catalog
+  digest: sha256:fbf8ef961f3ff3c98ca4687f5586741ea97085ab5b78691baa056a5d581eecf5
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.19.12-20230603.000000-000000000
+- caseVersions:
+  - 1.19.4
+  category: catalog
+  digest: sha256:504e67178433f3bb65b94d33b9339a42f59a3e396d0cdb4e0517a0f22c2a5c29
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.4-20230605.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.19.4
+  category: catalog
+  digest: sha256:69d526b2754ded1191601411b2ce38f3d0fe190b4d125130fbdafa2ba398f848
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.4-20230605.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.19.4
+  category: catalog
+  digest: sha256:f98a4bb83ec4372fa58a54575e2c941b37eebeab1159ae50a857a360d0139c6f
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.4-20230605.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.19.4
+  category: catalog
+  digest: sha256:cc3491ee7b448c3c8db43242d13e9d5d13a37ad9e67d166744d9b162887ed7e7
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.23.4-20230605.000000-000000000
+- caseVersions:
+  - 4.0.0
+  category: catalog
+  digest: sha256:f64833aa783aa432d1e150dfe26b00333061a60fe79291144c06f0d2f175705d
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.0.0-20230614.000000-000000000-linux.amd64
+- caseVersions:
+  - 4.0.0
+  category: catalog
+  digest: sha256:04ff4b82f9f2a7f525461084a58d372aae41019278dfaa4466fba9b494470c7b
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v4.0.0-20230614.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 4.0.0
+  category: catalog
+  digest: sha256:b94603aadefe45b541675c7757464f33b2729b4fcda50804aa21b67d3233313a
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v4.0.0-20230614.000000-000000000-linux.s390x
+- caseVersions:
+  - 4.0.0
+  category: catalog
+  digest: sha256:baec9f6a7b1710b1bba7f72ccc792c17830e563a1f85b8fb7bdb57505cde378a
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.0.0-20230614.000000-000000000
+- caseVersions:
+  - 4.0.1
+  category: catalog
+  digest: sha256:a9c4c3269f2b3d8b55b35f6ecd4a8c6b37d20cc0411b7c542591ae0178755f87
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.0.1-20230629.000000-000000000-linux.amd64
+- caseVersions:
+  - 4.0.1
+  category: catalog
+  digest: sha256:a8512a024aeb25c64cb0aa5406b715e8ff116667841fe43f178f4fd41e410607
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v4.0.1-20230629.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 4.0.1
+  category: catalog
+  digest: sha256:0ba0f9b55d869835f4f11441157b48ea9991f39fc9c39f4ecf0a38523e49ec34
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v4.0.1-20230629.000000-000000000-linux.s390x
+- caseVersions:
+  - 4.0.1
+  category: catalog
+  digest: sha256:f8fb1181851da5f1145f07ee2fccd0b1e33d460bc016296f25168c558d89d11f
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.0.1-20230629.000000-000000000
+- caseVersions:
+  - 1.19.5
+  category: catalog
+  digest: sha256:c0cad3847a657b9f73e5cf7546aca538f08ee82ec5289495d188cbef3a98b748
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.5-20230707.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.19.5
+  category: catalog
+  digest: sha256:ab3254089622aef548199c11a9933f7ccfb50fcadacd4b63f3c1278d53a610d9
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.5-20230707.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.19.5
+  category: catalog
+  digest: sha256:60004e9f9cca358f1ac829f29ff4e6301bffe79605a7dafd40c65450d4c22f07
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.23.5-20230707.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.19.5
+  category: catalog
+  digest: sha256:4ab515a6a84d232d7f6589751ec0fe777263b37ecc66833de1a2e26fec400fa3
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.23.5-20230707.000000-000000000
+- caseVersions:
+  - 1.15.13
+  category: catalog
+  digest: sha256:ba4cb6251f94fa57b835eeaf2ee69175d87763d9dba24b8aa78f0fed6465fd17
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.13-20230707.000000-000000000-linux.amd64
+- caseVersions:
+  - 1.15.13
+  category: catalog
+  digest: sha256:5c0f86d03afc60339e22e3c30bed789560589876ee266e9b1cd2bca51141d526
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.13-20230707.000000-000000000-linux.ppc64le
+- caseVersions:
+  - 1.15.13
+  category: catalog
+  digest: sha256:696a580cfafe4ae668798dea53b9c4a40bd8b91dd5405f28159ecf83e3ce18d8
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: v3.19.13-20230707.000000-000000000-linux.s390x
+- caseVersions:
+  - 1.15.13
+  category: catalog
+  digest: sha256:2842ccc8ddeac1e802b3b36c5d635c4ae078cf4664c7eadbdd7c25d868d23ebe
+  image: cpopen/ibm-common-service-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.19.13-20230707.000000-000000000

@@ -1,0 +1,13 @@
+name: Config management plugin top-level commands
+cpd-min-version: 3.5.0
+plugin-type: executable
+plugin-id: config
+plugin-version: 0.1.0
+executable:
+  darwin: config
+  linux: config
+  windows: config.exe
+  ppc64le: config
+  s390x: config
+alias: config
+alias-help-text: Manage config

@@ -1,0 +1,29 @@
+supportsRelatedImages: true
+admCatalogMirror:
+  sourceCatalogs:
+  - catalog: icr.io/cpopen/ibm-cpd-spss-operator-catalog@sha256:ad0fa33b897de3ec9b60bc33feeb11694634ff77f37702d5376990ec19c7bd54
+    imageType: LIST
+    architecture: ""
+    variant: ""
+    os: ""
+    isTopLevelCatalog: "true"
+    mediaType: registry+v1
+    mirrorImageSource: "false"
+  - catalog: icr.io/cpopen/ibm-cpd-spss-operator-catalog@sha256:decccdd7f5105313f3def955d9f123a5a8e5faab15bef39b5eb1a6bce206c73a
+    imageType: IMAGE
+    architecture: amd64
+    variant: ""
+    os: linux
+    isTopLevelCatalog: "false"
+    mediaType: registry+v1
+    mirrorImageSource: "false"
+  - catalog: icr.io/cpopen/ibm-cpd-spss-operator-catalog@sha256:35a636ccd86c7acaabd43b0dd2e91c6bdb7af1d3f777776b9e97b19863409d4b
+    imageType: IMAGE
+    architecture: ppc64le
+    variant: ""
+    os: linux
+    isTopLevelCatalog: "false"
+    mediaType: registry+v1
+    mirrorImageSource: "false"
+isc:
+  operators: []

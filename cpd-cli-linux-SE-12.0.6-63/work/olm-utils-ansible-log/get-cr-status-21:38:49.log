@@ -1,0 +1,148 @@
+2023-07-20 21:38:50,764 p=8065 u=ansible n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-07-20 21:38:50,770 p=8065 u=ansible n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2023-07-20 21:38:50,887 p=8065 u=ansible n=ansible | PLAY [localhost] ***************************************************************
+2023-07-20 21:38:50,939 p=8065 u=ansible n=ansible | TASK [include_role : utils] ****************************************************
+2023-07-20 21:38:51,007 p=8065 u=ansible n=ansible | TASK [utils : include_vars] ****************************************************
+2023-07-20 21:38:51,136 p=8065 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:38:51,145 p=8065 u=ansible n=ansible | TASK [utils : include_vars] ****************************************************
+2023-07-20 21:38:51,220 p=8065 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:38:51,230 p=8065 u=ansible n=ansible | TASK [utils : debug] ***********************************************************
+2023-07-20 21:38:51,295 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:51,305 p=8065 u=ansible n=ansible | TASK [utils : fail] ************************************************************
+2023-07-20 21:38:51,385 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:51,396 p=8065 u=ansible n=ansible | TASK [utils : merging release_components_meta and global_components_meta] ******
+2023-07-20 21:38:51,592 p=8065 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:38:51,603 p=8065 u=ansible n=ansible | TASK [utils : merge with override_components_meta] *****************************
+2023-07-20 21:38:51,656 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:51,667 p=8065 u=ansible n=ansible | TASK [utils : merge with override_components_meta] *****************************
+2023-07-20 21:38:51,916 p=8065 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:38:51,924 p=8065 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:38:51,990 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:51,999 p=8065 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:38:52,081 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:52,091 p=8065 u=ansible n=ansible | TASK [utils : check openshift cluster status] **********************************
+2023-07-20 21:38:52,168 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/check_cluster_healthy.yml for localhost
+2023-07-20 21:38:52,185 p=8065 u=ansible n=ansible | TASK [utils : checking ocp cluster connection status] **************************
+2023-07-20 21:38:53,458 p=8065 u=ansible n=ansible | changed: [localhost]
+2023-07-20 21:38:53,471 p=8065 u=ansible n=ansible | TASK [utils : fail] ************************************************************
+2023-07-20 21:38:53,542 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:53,550 p=8065 u=ansible n=ansible | TASK [utils : get cluster arch] ************************************************
+2023-07-20 21:38:54,743 p=8118 u=ansible n=ansible | [WARNING]: conditional statements should not include jinja2 templating
+delimiters such as {{ }} or {% %}. Found: {{ (kube_arch.stdout |
+from_json)['serverVersion'] is defined }}
+
+2023-07-20 21:38:54,768 p=8065 u=ansible n=ansible | changed: [localhost]
+2023-07-20 21:38:54,778 p=8065 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:38:54,872 p=8065 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:38:54,878 p=8065 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:38:54,930 p=8065 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:38:54,935 p=8065 u=ansible n=ansible | TASK [utils : include_tasks] ***************************************************
+2023-07-20 21:38:54,990 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:55,001 p=8065 u=ansible n=ansible | TASK [utils : debug] ***********************************************************
+2023-07-20 21:38:55,038 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:55,049 p=8065 u=ansible n=ansible | TASK [utils : Print trace information] *****************************************
+2023-07-20 21:38:56,037 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:56,049 p=8065 u=ansible n=ansible | TASK [utils : remove any existing generated preview sh script] *****************
+2023-07-20 21:38:56,121 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:56,134 p=8065 u=ansible n=ansible | TASK [utils : remove any existing generated preview yaml file] *****************
+2023-07-20 21:38:56,226 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:56,279 p=8065 u=ansible n=ansible | TASK [utils : Create CPFS namespace if not present ibm-common-services] ********
+2023-07-20 21:38:56,313 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:56,324 p=8065 u=ansible n=ansible | TASK [utils : Create cpd operator namespace if not present ibm-common-services] ***
+2023-07-20 21:38:56,362 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:56,371 p=8065 u=ansible n=ansible | TASK [utils : ensure operator group for ibm-common-services namespace] *********
+2023-07-20 21:38:56,409 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:56,420 p=8065 u=ansible n=ansible | TASK [utils : ensure operator group for ibm-common-services namespace] *********
+2023-07-20 21:38:56,456 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:38:56,461 p=8065 u=ansible n=ansible | TASK [include_role : utils] ****************************************************
+2023-07-20 21:38:56,518 p=8065 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:38:56,545 p=8065 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:38:56,551 p=8065 u=ansible n=ansible | TASK [utils : checking the status of all CRs] **********************************
+2023-07-20 21:38:57,492 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=redis)
+2023-07-20 21:38:57,497 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=factsheet)
+2023-07-20 21:38:57,504 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=replication)
+2023-07-20 21:38:57,510 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dpra)
+2023-07-20 21:38:57,519 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=estap)
+2023-07-20 21:38:57,524 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=ws_pipelines)
+2023-07-20 21:38:57,530 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=model_train_classic)
+2023-07-20 21:38:57,535 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=model_train_dwf)
+2023-07-20 21:38:57,541 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=model_train)
+2023-07-20 21:38:57,547 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=data_governor)
+2023-07-20 21:38:57,552 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_gateway)
+2023-07-20 21:38:57,558 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_auditwebhook)
+2023-07-20 21:38:57,564 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_etcd)
+2023-07-20 21:38:57,572 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_minio)
+2023-07-20 21:38:57,580 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=ws_runtimes)
+2023-07-20 21:38:57,588 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_speech)
+2023-07-20 21:38:57,594 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=wml_accelerator_instance)
+2023-07-20 21:38:57,600 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=wml_accelerator)
+2023-07-20 21:38:57,607 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_ks)
+2023-07-20 21:38:57,613 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_discovery)
+2023-07-20 21:38:57,620 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_assistant)
+2023-07-20 21:38:57,626 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=voice_gateway)
+2023-07-20 21:38:57,632 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=productmaster_instance)
+2023-07-20 21:38:57,638 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=productmaster)
+2023-07-20 21:38:57,644 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=planning_analytics)
+2023-07-20 21:38:57,651 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=openpages_instance)
+2023-07-20 21:38:57,658 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=openpages)
+2023-07-20 21:38:57,665 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=mongodb_cp4d)
+2023-07-20 21:38:57,671 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=mongodb)
+2023-07-20 21:38:57,678 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=informix_cp4d)
+2023-07-20 21:38:57,684 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=informix)
+2023-07-20 21:38:57,691 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=fdb_k8s)
+2023-07-20 21:38:57,698 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_fdb)
+2023-07-20 21:38:57,704 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_rabbitmq)
+2023-07-20 21:38:57,712 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_redis)
+2023-07-20 21:38:57,753 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_elasticsearch)
+2023-07-20 21:38:57,759 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=match360)
+2023-07-20 21:38:57,766 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=hee)
+2023-07-20 21:38:57,772 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=edb_cp4d)
+2023-07-20 21:38:57,778 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=postgresql)
+2023-07-20 21:38:57,784 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dods)
+2023-07-20 21:38:57,790 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=db2wh)
+2023-07-20 21:38:57,796 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=datagate)
+2023-07-20 21:38:57,802 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=bigsql)
+2023-07-20 21:38:57,808 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=db2oltp)
+2023-07-20 21:38:57,817 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=datastage_ent_plus)
+2023-07-20 21:38:57,823 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=datastage_ent)
+2023-07-20 21:38:57,830 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dashboard)
+2023-07-20 21:38:57,837 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=cde)
+2023-07-20 21:38:57,844 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=cognos_analytics)
+2023-07-20 21:38:57,851 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=openscale)
+2023-07-20 21:38:57,857 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dv)
+2023-07-20 21:38:57,864 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dp)
+2023-07-20 21:38:57,870 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=wkc)
+2023-07-20 21:38:57,876 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=wml)
+2023-07-20 21:38:57,881 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=rstudio)
+2023-07-20 21:38:57,888 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=spss)
+2023-07-20 21:38:57,894 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=ws)
+2023-07-20 21:38:57,900 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=db2aaservice)
+2023-07-20 21:38:57,906 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=db2u)
+2023-07-20 21:38:57,911 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dmc)
+2023-07-20 21:38:57,917 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=mantaflow)
+2023-07-20 21:38:57,924 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=iis)
+2023-07-20 21:38:57,931 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=datarefinery)
+2023-07-20 21:38:57,937 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=analyticsengine)
+2023-07-20 21:38:57,944 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=ccs)
+2023-07-20 21:38:57,950 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=cpd_platform)
+2023-07-20 21:38:57,955 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=scheduler)
+2023-07-20 21:38:57,961 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=zen)
+2023-07-20 21:38:57,966 p=8065 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=cpfs)
+2023-07-20 21:38:57,982 p=8065 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:39:06,716 p=8065 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:39:06,722 p=8065 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:39:06,769 p=8065 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:39:06,785 p=8065 u=ansible n=ansible | TASK [utils : check CR status for redis if it exists] **************************
+2023-07-20 21:39:06,827 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:39:06,833 p=8065 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:39:06,893 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:39:06,906 p=8065 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:39:06,940 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:39:06,945 p=8065 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:39:06,991 p=8065 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:39:07,009 p=8065 u=ansible n=ansible | TASK [utils : check CR status for FACTSHEET if it exists] **********************
+2023-07-20 21:39:07,927 p=8065 u=ansible n=ansible |  [ERROR]: User interrupted execution
+

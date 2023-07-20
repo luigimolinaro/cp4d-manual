@@ -1,0 +1,13 @@
+name: zen ldap migration plugin top-level commands
+cpd-min-version: 4.3.0
+plugin-type: executable
+plugin-id: migrate
+plugin-version: 0.1.0
+executable:
+  darwin: migrate
+  linux: migrate
+  windows: migrate.exe
+  ppc64le: migrate
+  s390x: migrate
+alias: migrate-ldap
+alias-help-text: ldap migrate

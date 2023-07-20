@@ -1,0 +1,488 @@
+apiVersion: v1
+containerImages:
+- caseVersions:
+  - 1.0.3
+  category: catalog
+  digest: sha256:8c1e7723e04d721be4dfeb5a1adea8eabc4f57e171502138f1421601ff8b7513
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-790-amd64
+- caseVersions:
+  - 1.0.3
+  category: catalog
+  digest: sha256:fc0771feef5230275055a3665cd4c3918e03c3c9e42e5f7f4b0403940e698a5d
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-790-ppc64le
+- caseVersions:
+  - 1.0.3
+  category: catalog
+  digest: sha256:d551f7e685a27e1d00a832c34e18d65cc5f46855924d64aa365e0562fb7def93
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-790
+- caseVersions:
+  - 1.0.0
+  category: catalog
+  digest: sha256:3025828d25a0ec4a978eec588f0b39e1edc90482deac5af93b86d950c4acb750
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: latest
+- caseVersions:
+  - 1.0.1
+  category: catalog
+  digest: sha256:a1038f2f158791e5f881cfc4571477db8666245dfe10c0627cc2d579edd75a81
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: 1.0-20210810.101541
+- caseVersions:
+  - 1.0.2
+  category: catalog
+  digest: sha256:fe0d51ed7f2c79da5ceec15f2b01637707f1f01a2153757e8bc141a2d95b082e
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-630-amd64
+- caseVersions:
+  - 1.0.2
+  category: catalog
+  digest: sha256:23f967a670128a8d245178791919fa691c6ad259d5fd8eb08f22868c199c0124
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-630
+- caseVersions:
+  - 1.0.4
+  category: catalog
+  digest: sha256:6e200aa485d4743b30e804d3c5a1a0c2b9cb176e0ee41eb7d6b94c5c294191b7
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-898-amd64
+- caseVersions:
+  - 1.0.4
+  category: catalog
+  digest: sha256:cee7e7efcc89e4fae162f139311fb8ef135facb795c58436e8f0370bfe5f55ce
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-898-ppc64le
+- caseVersions:
+  - 1.0.4
+  category: catalog
+  digest: sha256:5d020b10f392064ba25d0612549ab38adc5ca270434a70079e8608d8d428f443
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-898
+- caseVersions:
+  - 1.0.5
+  category: catalog
+  digest: sha256:fd6806913e2f5e7fa6877bf8dc7c90bd73cc46b40a28c3ae8a57cda29f9c0afe
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-917-amd64
+- caseVersions:
+  - 1.0.5
+  category: catalog
+  digest: sha256:7e3bf369fc1e283de340b63d2f8b7c99c7c985d67be85e1cd25419b09f0f9d8d
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-917-ppc64le
+- caseVersions:
+  - 1.0.5
+  category: catalog
+  digest: sha256:1750f9fdb0e65ec0f7b808730575bfc3bb8295b2e17f2b38c13b18a7fe543d3c
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-917
+- caseVersions:
+  - 1.0.6
+  category: catalog
+  digest: sha256:4010b6fca31efbbae1d619f3aa1bedbfe6707be64bb1c341b7dca27804635c7c
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-993-amd64
+- caseVersions:
+  - 1.0.6
+  category: catalog
+  digest: sha256:125365c4b102748bf649c0a5496165cdf2db5bed59abb84098c3041594c9c11e
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-993-ppc64le
+- caseVersions:
+  - 1.0.6
+  category: catalog
+  digest: sha256:050e03d4f7a88d7014723853155dbab37cf598710219a4d100fb450f12333280
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-993
+- caseVersions:
+  - 1.0.7
+  category: catalog
+  digest: sha256:04a044fbbd45b2d69639b2c56d93884888faa91ae572f4f4a21c6b2c3ac6dcc9
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-1074-amd64
+- caseVersions:
+  - 1.0.7
+  category: catalog
+  digest: sha256:e40af135aafa7ea3a9847738a5998e7145d9dd3518381e80936e02b82ca4ef99
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-1074
+- caseVersions:
+  - 1.0.8
+  category: catalog
+  digest: sha256:1b9e34e019356d3e74ce0a0a3eb106e27c1da728bb29f7fc3b1884fab249a884
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-1144-amd64
+- caseVersions:
+  - 1.0.8
+  category: catalog
+  digest: sha256:c0ab92e420448a15175970ee7b23cc45d3895f7de160ca4f9a2f34abe6c1f9fc
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-1144
+- caseVersions:
+  - 1.0.9
+  - 1.0.9+20220726.000000
+  category: catalog
+  digest: sha256:029431c5c1908cead213bf500a9f4e570abb3ba6d7a602835754dc65aff7b61d
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 1.0-1207-amd64
+- caseVersions:
+  - 1.0.9
+  - 1.0.9+20220726.000000
+  category: catalog
+  digest: sha256:e69e20503a67bd2e31b08c6febdd7a08c1d214abb3dff342b0003e87583dff44
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 1.0-1207
+- caseVersions:
+  - 2.0.0
+  category: catalog
+  digest: sha256:5d7ddc0876c558574e7f177ccaf766b108af9faa6350c366b33d48d7b1bc2d8e
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 2.0.0-1318-amd64
+- caseVersions:
+  - 2.0.0
+  category: catalog
+  digest: sha256:59c6eb6b1e382de573e8807243679970fb2165b7daabfa6881a58718ca25ada6
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 2.0.0-1318-ppc64le
+- caseVersions:
+  - 2.0.0
+  category: catalog
+  digest: sha256:a38871e52e5f1b57b3c8880261c966ab26a1153e50de4bf50ae850e566e8c00e
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 2.0.0-1318
+- caseVersions:
+  - 2.1.0
+  category: catalog
+  digest: sha256:d30ba61a3071e626ed56ae7cf0c1ff70b3a2cfae99a7747edb0742beb17bbc8c
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 2.1.0-1356-amd64
+- caseVersions:
+  - 2.1.0
+  category: catalog
+  digest: sha256:7b339b6b5a2681c870501e750afd75ef0db4e61a1861b27e9cd5cca8ebe85d2d
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 2.1.0-1356-ppc64le
+- caseVersions:
+  - 2.1.0
+  category: catalog
+  digest: sha256:dd3535a286095a8f1b071a00cf69cad2fc31f7148bece9cb4612b24d904d9ce0
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 2.1.0-1356
+- caseVersions:
+  - 2.2.0
+  category: catalog
+  digest: sha256:02baa11b933f411cbdca4f603b35b0c15858b0cd71b7a5586d0cfcaa048ca382
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 2.2.0-1465-amd64
+- caseVersions:
+  - 2.2.0
+  category: catalog
+  digest: sha256:7f95a87582335877e0a00ed8da0680cd4ac96335275568e42df8e1bc72ec963e
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 2.2.0-1465-ppc64le
+- caseVersions:
+  - 2.2.0
+  category: catalog
+  digest: sha256:654d8cb97907c2b5dc7ab79cb85909f5aa7ac4bd5a18f9c7b83d05d1f3d3039a
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 2.2.0-1465
+- caseVersions:
+  - 2.3.0
+  category: catalog
+  digest: sha256:ad2157483fa3b9d7734a3f2bd99d258df64c67420ca8c91b8f58d4685d0fd26a
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 2.3.0-1619-amd64
+- caseVersions:
+  - 2.3.0
+  category: catalog
+  digest: sha256:699409a35e736eb0653312ef1dce9617a7525093ced352605747578786256134
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 2.3.0-1619-ppc64le
+- caseVersions:
+  - 2.3.0
+  category: catalog
+  digest: sha256:7b730e5d9e86515b519d604925238f373082d9385970c19b0e9ef4d74672e559
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 2.3.0-1619
+- caseVersions:
+  - 6.0.0
+  category: catalog
+  digest: sha256:8a5f8124664f60b69cf0c419fe4e19a867da8ccfe00babd2bc6ee66eb2757c6f
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.0.0-1745-amd64
+- caseVersions:
+  - 6.0.0
+  category: catalog
+  digest: sha256:3148c1b9c9cb8f80a1e374bc671c42f8cc91261387e873c054d54c31ae47eaa0
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.0.0-1745-ppc64le
+- caseVersions:
+  - 6.0.0
+  category: catalog
+  digest: sha256:33bad5bf2f8f73245666aaf3959a550d6844d453d79934aa11db34ee6405460c
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.0.0-1745
+- caseVersions:
+  - 6.1.0
+  category: catalog
+  digest: sha256:8164a15b088ba18af9f83df684fbbb2fe616d96e2e1bd7c70fbe851debfd141c
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.1.0-1775-amd64
+- caseVersions:
+  - 6.1.0
+  category: catalog
+  digest: sha256:43306e4c0e7d3e6cebc0faf3f34dd6d8f62107dc55bb74e1250f006902da8171
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.1.0-1775-ppc64le
+- caseVersions:
+  - 6.1.0
+  category: catalog
+  digest: sha256:c904b2ffec61cf4733f9d4191886edfac0db8c5e07ab37ca69e6bb43347b63b9
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.1.0-1775
+- caseVersions:
+  - 6.3.0
+  category: catalog
+  digest: sha256:e552e8f7651c753288171e88722414de6fccd3a051a16d924a8fbaa024408097
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.3.0-1827-amd64
+- caseVersions:
+  - 6.3.0
+  category: catalog
+  digest: sha256:9cbe5b0e8113fa50c1eaa37a3b5dfe8a00c1ec7ca9033062d2c5fc14bff1e374
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.3.0-1827-ppc64le
+- caseVersions:
+  - 6.3.0
+  category: catalog
+  digest: sha256:81fca112847fa8236a8145a61d4c743cfb4f07e61257577cd4d76d85ac9f10cc
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.3.0-1827
+- caseVersions:
+  - 6.4.0
+  category: catalog
+  digest: sha256:b3539995d5ac30c288cd6787c9281b564fa32b6feb9aa94098df94f9a2f35cb9
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.4.0-1905-amd64
+- caseVersions:
+  - 6.4.0
+  category: catalog
+  digest: sha256:db7ea95717479b4178b6114e47e0fbd69478655c6d7a9fd1c2db73a0943e97e0
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.4.0-1905-ppc64le
+- caseVersions:
+  - 6.4.0
+  category: catalog
+  digest: sha256:0de08b49d6d4d85edfdfcb14597fd0b78f5f7c2f7303346c540e562df7db4ac1
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.4.0-1905
+- caseVersions:
+  - 6.5.0
+  category: catalog
+  digest: sha256:decccdd7f5105313f3def955d9f123a5a8e5faab15bef39b5eb1a6bce206c73a
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.5.0-2057-amd64
+- caseVersions:
+  - 6.5.0
+  category: catalog
+  digest: sha256:35a636ccd86c7acaabd43b0dd2e91c6bdb7af1d3f777776b9e97b19863409d4b
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.5.0-2057-ppc64le
+- caseVersions:
+  - 6.5.0
+  category: catalog
+  digest: sha256:ad0fa33b897de3ec9b60bc33feeb11694634ff77f37702d5376990ec19c7bd54
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.5.0-2057
+- caseVersions:
+  - 7.0.0
+  category: catalog
+  digest: sha256:02eff853dd42aeaf383ad3618ce9cf2b1ecf6f1ea6b3b0725e857bb216807401
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 7.0.0-2201-amd64
+- caseVersions:
+  - 7.0.0
+  category: catalog
+  digest: sha256:316b5f9eee9a5c60e7a9591ab0b20dabc325c1056759a5beaa6e3ad57b1945c8
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 7.0.0-2201-ppc64le
+- caseVersions:
+  - 7.0.0
+  category: catalog
+  digest: sha256:96246b85e59276a245cc939762728c52225a89bc54cb3a59c564c676ac8ffb35
+  image: cpopen/ibm-cpd-spss-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 7.0.0-2201

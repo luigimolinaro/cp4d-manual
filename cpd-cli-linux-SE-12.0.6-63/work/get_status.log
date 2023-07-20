@@ -1,0 +1,589 @@
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [localhost] ***************************************************************
+
+TASK [include_role : utils] ****************************************************
+
+TASK [utils : include_vars] ****************************************************
+ok: [localhost]
+
+TASK [utils : include_vars] ****************************************************
+ok: [localhost]
+
+TASK [utils : debug] ***********************************************************
+skipping: [localhost]
+
+TASK [utils : fail] ************************************************************
+skipping: [localhost]
+
+TASK [utils : merging release_components_meta and global_components_meta] ******
+ok: [localhost]
+
+TASK [utils : merge with override_components_meta] *****************************
+skipping: [localhost]
+
+TASK [utils : merge with override_components_meta] *****************************
+ok: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check openshift cluster status] **********************************
+included: /opt/ansible/ansible-play/roles/utils/tasks/check_cluster_healthy.yml for localhost
+
+TASK [utils : checking ocp cluster connection status] **************************
+changed: [localhost]
+
+TASK [utils : fail] ************************************************************
+skipping: [localhost]
+
+TASK [utils : get cluster arch] ************************************************
+[WARNING]: conditional statements should not include jinja2 templating
+delimiters such as {{ }} or {% %}. Found: {{ (kube_arch.stdout |
+from_json)['serverVersion'] is defined }}
+changed: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+ok: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+ok: [localhost]
+
+TASK [utils : include_tasks] ***************************************************
+skipping: [localhost]
+
+TASK [utils : debug] ***********************************************************
+skipping: [localhost]
+
+TASK [utils : Print trace information] *****************************************
+skipping: [localhost]
+
+TASK [utils : remove any existing generated preview sh script] *****************
+skipping: [localhost]
+
+TASK [utils : remove any existing generated preview yaml file] *****************
+skipping: [localhost]
+
+TASK [utils : Create CPFS namespace if not present ibm-common-services] ********
+skipping: [localhost]
+
+TASK [utils : Create cpd operator namespace if not present ibm-common-services] ***
+skipping: [localhost]
+
+TASK [utils : ensure operator group for ibm-common-services namespace] *********
+skipping: [localhost]
+
+TASK [utils : ensure operator group for ibm-common-services namespace] *********
+skipping: [localhost]
+
+TASK [include_role : utils] ****************************************************
+
+TASK [utils : set_fact] ********************************************************
+ok: [localhost]
+
+TASK [utils : checking the status of all CRs] **********************************
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=redis)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=factsheet)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=replication)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dpra)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=estap)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=ws_pipelines)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=model_train_classic)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=model_train_dwf)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=model_train)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=data_governor)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_gateway)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_auditwebhook)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_etcd)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_minio)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=ws_runtimes)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_speech)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=wml_accelerator_instance)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=wml_accelerator)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_ks)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_discovery)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_assistant)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=voice_gateway)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=productmaster_instance)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=productmaster)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=planning_analytics)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=openpages_instance)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=openpages)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=mongodb_cp4d)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=mongodb)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=informix_cp4d)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=informix)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=fdb_k8s)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_fdb)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_rabbitmq)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_redis)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_elasticsearch)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=match360)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=hee)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=edb_cp4d)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=postgresql)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dods)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=db2wh)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=datagate)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=bigsql)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=db2oltp)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=datastage_ent_plus)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=datastage_ent)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dashboard)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=cde)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=cognos_analytics)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=openscale)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dv)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dp)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=wkc)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=wml)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=rstudio)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=spss)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=ws)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=db2aaservice)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=db2u)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dmc)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=mantaflow)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=iis)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=datarefinery)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=analyticsengine)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=ccs)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=cpd_platform)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=scheduler)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=zen)
+included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=cpfs)
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+ok: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+ok: [localhost]
+
+TASK [utils : check CR status for redis if it exists] **************************
+skipping: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+skipping: [localhost]
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for FACTSHEET if it exists] **********************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for ReplicationService if it exists] *************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for DpraService if it exists] ********************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for EstapServiceCPDAddOn if it exists] ***********
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for WSPipelines if it exists] ********************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for model_train_classic if it exists] ************
+skipping: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+skipping: [localhost]
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for model_train_dwf if it exists] ****************
+skipping: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+skipping: [localhost]
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for model_train if it exists] ********************
+skipping: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+skipping: [localhost]
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for data_governor if it exists] ******************
+skipping: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+skipping: [localhost]
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for watson_gateway if it exists] *****************
+skipping: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+skipping: [localhost]
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for opencontent_auditwebhook if it exists] *******
+skipping: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+skipping: [localhost]
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for opencontent_etcd if it exists] ***************
+skipping: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+skipping: [localhost]
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for opencontent_minio if it exists] **************
+skipping: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+skipping: [localhost]
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for NotebookRuntime if it exists] ****************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for WatsonSpeech if it exists] *******************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for Wmla if it exists] ***************************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for Wmla-add-on if it exists] ********************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for KnowledgeStudio if it exists] ****************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for WatsonDiscovery if it exists] ****************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for WatsonAssistant if it exists] ****************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for VoiceGateway if it exists] *******************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for ProductMaster if it exists] ******************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for ProductMasterService if it exists] ***********
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for PAService if it exists] **********************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for OpenPagesInstance if it exists] **************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for OpenPagesService if it exists] ***************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for CPDMongoDBService if it exists] **************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for mongodb if it exists] ************************
+skipping: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+skipping: [localhost]
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for InformixService if it exists] ****************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for Informix if it exists] ***********************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for fdb_k8s if it exists] ************************
+skipping: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+skipping: [localhost]
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for fdbcluster if it exists] *********************
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for opencontent_rabbitmq if it exists] ***********
+skipping: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+skipping: [localhost]
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for opencontent_redis if it exists] **************
+skipping: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+skipping: [localhost]
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for opencontent_elasticsearch if it exists] ******
+skipping: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+skipping: [localhost]
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for MasterDataManagement if it exists] ***********
+ok: [localhost]
+
+TASK [utils : for all CRs that were found] *************************************
+
+TASK [utils : Check if user have permission to access cp4d] ********************
+skipping: [localhost]
+
+TASK [utils : set_fact] ********************************************************
+skipping: [localhost]
+
+TASK [utils : check CR status for Hadoop if it exists] *************************
+ [ERROR]: User interrupted execution

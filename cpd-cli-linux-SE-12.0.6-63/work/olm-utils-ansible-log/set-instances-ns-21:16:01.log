@@ -1,0 +1,87 @@
+2023-07-20 21:16:02,439 p=5710 u=ansible n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-07-20 21:16:02,444 p=5710 u=ansible n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2023-07-20 21:16:02,600 p=5710 u=ansible n=ansible | PLAY [localhost] *******************************************************************************************************************************
+2023-07-20 21:16:02,617 p=5710 u=ansible n=ansible | TASK [include_role : utils] ********************************************************************************************************************
+2023-07-20 21:16:02,684 p=5710 u=ansible n=ansible | TASK [utils : include_vars] ********************************************************************************************************************
+2023-07-20 21:16:02,810 p=5710 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:16:02,820 p=5710 u=ansible n=ansible | TASK [utils : include_vars] ********************************************************************************************************************
+2023-07-20 21:16:02,910 p=5710 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:16:02,921 p=5710 u=ansible n=ansible | TASK [utils : debug] ***************************************************************************************************************************
+2023-07-20 21:16:03,002 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:03,014 p=5710 u=ansible n=ansible | TASK [utils : fail] ****************************************************************************************************************************
+2023-07-20 21:16:03,110 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:03,120 p=5710 u=ansible n=ansible | TASK [utils : merging release_components_meta and global_components_meta] **********************************************************************
+2023-07-20 21:16:03,354 p=5710 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:16:03,364 p=5710 u=ansible n=ansible | TASK [utils : merge with override_components_meta] *********************************************************************************************
+2023-07-20 21:16:03,455 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:03,508 p=5710 u=ansible n=ansible | TASK [utils : merge with override_components_meta] *********************************************************************************************
+2023-07-20 21:16:03,662 p=5710 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:16:03,674 p=5710 u=ansible n=ansible | TASK [utils : set_fact] ************************************************************************************************************************
+2023-07-20 21:16:03,763 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:03,775 p=5710 u=ansible n=ansible | TASK [utils : set_fact] ************************************************************************************************************************
+2023-07-20 21:16:03,827 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:03,839 p=5710 u=ansible n=ansible | TASK [utils : check openshift cluster status] **************************************************************************************************
+2023-07-20 21:16:03,906 p=5710 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/check_cluster_healthy.yml for localhost
+2023-07-20 21:16:03,924 p=5710 u=ansible n=ansible | TASK [utils : checking ocp cluster connection status] ******************************************************************************************
+2023-07-20 21:16:05,235 p=5710 u=ansible n=ansible | changed: [localhost]
+2023-07-20 21:16:05,244 p=5710 u=ansible n=ansible | TASK [utils : fail] ****************************************************************************************************************************
+2023-07-20 21:16:05,328 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:05,337 p=5710 u=ansible n=ansible | TASK [utils : get cluster arch] ****************************************************************************************************************
+2023-07-20 21:16:06,521 p=5763 u=ansible n=ansible | [WARNING]: conditional statements should not include jinja2 templating delimiters such as {{ }} or {% %}. Found: {{ (kube_arch.stdout |
+from_json)['serverVersion'] is defined }}
+
+2023-07-20 21:16:06,542 p=5710 u=ansible n=ansible | changed: [localhost]
+2023-07-20 21:16:06,553 p=5710 u=ansible n=ansible | TASK [utils : set_fact] ************************************************************************************************************************
+2023-07-20 21:16:06,613 p=5710 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:16:06,619 p=5710 u=ansible n=ansible | TASK [utils : set_fact] ************************************************************************************************************************
+2023-07-20 21:16:06,674 p=5710 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:16:06,680 p=5710 u=ansible n=ansible | TASK [utils : include_tasks] *******************************************************************************************************************
+2023-07-20 21:16:06,740 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:06,745 p=5710 u=ansible n=ansible | TASK [utils : debug] ***************************************************************************************************************************
+2023-07-20 21:16:06,771 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:06,776 p=5710 u=ansible n=ansible | TASK [utils : Print trace information] *********************************************************************************************************
+2023-07-20 21:16:07,571 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:07,581 p=5710 u=ansible n=ansible | TASK [utils : remove any existing generated preview sh script] *********************************************************************************
+2023-07-20 21:16:07,635 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:07,648 p=5710 u=ansible n=ansible | TASK [utils : remove any existing generated preview yaml file] *********************************************************************************
+2023-07-20 21:16:07,730 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:07,758 p=5710 u=ansible n=ansible | TASK [utils : Create CPFS namespace if not present cp4d] ***************************************************************************************
+2023-07-20 21:16:07,790 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:07,798 p=5710 u=ansible n=ansible | TASK [utils : Create cpd operator namespace if not present cp4d] *******************************************************************************
+2023-07-20 21:16:07,833 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:07,853 p=5710 u=ansible n=ansible | TASK [utils : ensure operator group for cp4d namespace] ****************************************************************************************
+2023-07-20 21:16:07,905 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:07,915 p=5710 u=ansible n=ansible | TASK [utils : ensure operator group for cp4d namespace] ****************************************************************************************
+2023-07-20 21:16:07,960 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:07,965 p=5710 u=ansible n=ansible | TASK [include_role : utils] ********************************************************************************************************************
+2023-07-20 21:16:08,025 p=5710 u=ansible n=ansible | TASK [utils : set_fact] ************************************************************************************************************************
+2023-07-20 21:16:08,062 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:08,067 p=5710 u=ansible n=ansible | TASK [utils : print preview opreq] *************************************************************************************************************
+2023-07-20 21:16:08,113 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:08,127 p=5710 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ************************************************************************************
+2023-07-20 21:16:09,916 p=5710 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:16:09,931 p=5710 u=ansible n=ansible | TASK [utils : fail] ****************************************************************************************************************************
+2023-07-20 21:16:09,992 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:10,005 p=5710 u=ansible n=ansible | TASK [utils : Create cpd instance namespace if not present cp4d] *******************************************************************************
+2023-07-20 21:16:10,063 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:10,077 p=5710 u=ansible n=ansible | TASK [utils : waiting for cpfs and odlm CRDs to come online] ***********************************************************************************
+2023-07-20 21:16:10,174 p=5710 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/wait_for_cpfs.yml for localhost
+2023-07-20 21:16:10,191 p=5710 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ************************************************************************************
+2023-07-20 21:16:11,712 p=5710 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:16:11,724 p=5710 u=ansible n=ansible | TASK [utils : ensure the ODLM deployment is scaled up] *****************************************************************************************
+2023-07-20 21:16:11,782 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:11,792 p=5710 u=ansible n=ansible | TASK [utils : waiting for the cpfs CSV to be ready] ********************************************************************************************
+2023-07-20 21:16:11,859 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:11,871 p=5710 u=ansible n=ansible | TASK [utils : waiting for ODLM and Namespace Scope operators to come online] *******************************************************************
+2023-07-20 21:16:13,802 p=5710 u=ansible n=ansible | ok: [localhost] => (item=operand-deployment-lifecycle-manager)
+2023-07-20 21:16:15,494 p=5710 u=ansible n=ansible | ok: [localhost] => (item=ibm-namespace-scope-operator)
+2023-07-20 21:16:15,526 p=5710 u=ansible n=ansible | TASK [utils : create operand request for instance namespace if not present] ********************************************************************
+2023-07-20 21:16:17,560 p=5710 u=ansible n=ansible | changed: [localhost]
+2023-07-20 21:16:17,565 p=5710 u=ansible n=ansible | TASK [include_role : utils] ********************************************************************************************************************
+2023-07-20 21:16:17,613 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:17,621 p=5710 u=ansible n=ansible | TASK [debug] ***********************************************************************************************************************************
+2023-07-20 21:16:17,662 p=5710 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:16:17,677 p=5710 u=ansible n=ansible | PLAY RECAP *************************************************************************************************************************************
+2023-07-20 21:16:17,677 p=5710 u=ansible n=ansible | localhost                  : ok=14   changed=3    unreachable=0    failed=0    skipped=23   rescued=0    ignored=0   

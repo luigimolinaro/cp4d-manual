@@ -1,0 +1,413 @@
+2023-07-20 21:46:30,227 p=8247 u=ansible n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2023-07-20 21:46:30,233 p=8247 u=ansible n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2023-07-20 21:46:30,343 p=8247 u=ansible n=ansible | PLAY [localhost] ***************************************************************
+2023-07-20 21:46:30,388 p=8247 u=ansible n=ansible | TASK [include_role : utils] ****************************************************
+2023-07-20 21:46:30,451 p=8247 u=ansible n=ansible | TASK [utils : include_vars] ****************************************************
+2023-07-20 21:46:30,600 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:30,604 p=8247 u=ansible n=ansible | TASK [utils : include_vars] ****************************************************
+2023-07-20 21:46:30,663 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:30,674 p=8247 u=ansible n=ansible | TASK [utils : debug] ***********************************************************
+2023-07-20 21:46:30,759 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:30,771 p=8247 u=ansible n=ansible | TASK [utils : fail] ************************************************************
+2023-07-20 21:46:30,855 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:30,865 p=8247 u=ansible n=ansible | TASK [utils : merging release_components_meta and global_components_meta] ******
+2023-07-20 21:46:31,065 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:31,075 p=8247 u=ansible n=ansible | TASK [utils : merge with override_components_meta] *****************************
+2023-07-20 21:46:31,155 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:31,166 p=8247 u=ansible n=ansible | TASK [utils : merge with override_components_meta] *****************************
+2023-07-20 21:46:31,353 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:31,364 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:31,451 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:31,462 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:31,547 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:31,558 p=8247 u=ansible n=ansible | TASK [utils : check openshift cluster status] **********************************
+2023-07-20 21:46:31,638 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/check_cluster_healthy.yml for localhost
+2023-07-20 21:46:31,654 p=8247 u=ansible n=ansible | TASK [utils : checking ocp cluster connection status] **************************
+2023-07-20 21:46:32,829 p=8247 u=ansible n=ansible | changed: [localhost]
+2023-07-20 21:46:32,840 p=8247 u=ansible n=ansible | TASK [utils : fail] ************************************************************
+2023-07-20 21:46:32,924 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:32,937 p=8247 u=ansible n=ansible | TASK [utils : get cluster arch] ************************************************
+2023-07-20 21:46:34,000 p=8300 u=ansible n=ansible | [WARNING]: conditional statements should not include jinja2 templating
+delimiters such as {{ }} or {% %}. Found: {{ (kube_arch.stdout |
+from_json)['serverVersion'] is defined }}
+
+2023-07-20 21:46:34,023 p=8247 u=ansible n=ansible | changed: [localhost]
+2023-07-20 21:46:34,032 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:34,123 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:34,131 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:34,209 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:34,219 p=8247 u=ansible n=ansible | TASK [utils : include_tasks] ***************************************************
+2023-07-20 21:46:34,277 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:34,285 p=8247 u=ansible n=ansible | TASK [utils : debug] ***********************************************************
+2023-07-20 21:46:34,314 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:34,323 p=8247 u=ansible n=ansible | TASK [utils : Print trace information] *****************************************
+2023-07-20 21:46:35,112 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:35,121 p=8247 u=ansible n=ansible | TASK [utils : remove any existing generated preview sh script] *****************
+2023-07-20 21:46:35,182 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:35,194 p=8247 u=ansible n=ansible | TASK [utils : remove any existing generated preview yaml file] *****************
+2023-07-20 21:46:35,280 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:35,332 p=8247 u=ansible n=ansible | TASK [utils : Create CPFS namespace if not present ibm-common-services] ********
+2023-07-20 21:46:35,365 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:35,375 p=8247 u=ansible n=ansible | TASK [utils : Create cpd operator namespace if not present ibm-common-services] ***
+2023-07-20 21:46:35,407 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:35,416 p=8247 u=ansible n=ansible | TASK [utils : ensure operator group for ibm-common-services namespace] *********
+2023-07-20 21:46:35,445 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:35,456 p=8247 u=ansible n=ansible | TASK [utils : ensure operator group for ibm-common-services namespace] *********
+2023-07-20 21:46:35,492 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:35,497 p=8247 u=ansible n=ansible | TASK [include_role : utils] ****************************************************
+2023-07-20 21:46:35,569 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:35,602 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:35,609 p=8247 u=ansible n=ansible | TASK [utils : checking the status of all CRs] **********************************
+2023-07-20 21:46:36,542 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=redis)
+2023-07-20 21:46:36,548 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=factsheet)
+2023-07-20 21:46:36,553 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=replication)
+2023-07-20 21:46:36,559 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dpra)
+2023-07-20 21:46:36,566 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=estap)
+2023-07-20 21:46:36,573 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=ws_pipelines)
+2023-07-20 21:46:36,579 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=model_train_classic)
+2023-07-20 21:46:36,586 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=model_train_dwf)
+2023-07-20 21:46:36,591 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=model_train)
+2023-07-20 21:46:36,597 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=data_governor)
+2023-07-20 21:46:36,605 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_gateway)
+2023-07-20 21:46:36,612 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_auditwebhook)
+2023-07-20 21:46:36,619 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_etcd)
+2023-07-20 21:46:36,625 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_minio)
+2023-07-20 21:46:36,632 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=ws_runtimes)
+2023-07-20 21:46:36,640 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_speech)
+2023-07-20 21:46:36,685 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=wml_accelerator_instance)
+2023-07-20 21:46:36,692 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=wml_accelerator)
+2023-07-20 21:46:36,698 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_ks)
+2023-07-20 21:46:36,704 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_discovery)
+2023-07-20 21:46:36,710 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=watson_assistant)
+2023-07-20 21:46:36,716 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=voice_gateway)
+2023-07-20 21:46:36,723 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=productmaster_instance)
+2023-07-20 21:46:36,729 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=productmaster)
+2023-07-20 21:46:36,735 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=planning_analytics)
+2023-07-20 21:46:36,742 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=openpages_instance)
+2023-07-20 21:46:36,748 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=openpages)
+2023-07-20 21:46:36,755 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=mongodb_cp4d)
+2023-07-20 21:46:36,761 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=mongodb)
+2023-07-20 21:46:36,767 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=informix_cp4d)
+2023-07-20 21:46:36,774 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=informix)
+2023-07-20 21:46:36,781 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=fdb_k8s)
+2023-07-20 21:46:36,787 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_fdb)
+2023-07-20 21:46:36,794 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_rabbitmq)
+2023-07-20 21:46:36,800 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_redis)
+2023-07-20 21:46:36,807 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=opencontent_elasticsearch)
+2023-07-20 21:46:36,814 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=match360)
+2023-07-20 21:46:36,822 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=hee)
+2023-07-20 21:46:36,829 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=edb_cp4d)
+2023-07-20 21:46:36,836 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=postgresql)
+2023-07-20 21:46:36,843 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dods)
+2023-07-20 21:46:36,849 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=db2wh)
+2023-07-20 21:46:36,856 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=datagate)
+2023-07-20 21:46:36,863 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=bigsql)
+2023-07-20 21:46:36,869 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=db2oltp)
+2023-07-20 21:46:36,876 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=datastage_ent_plus)
+2023-07-20 21:46:36,883 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=datastage_ent)
+2023-07-20 21:46:36,890 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dashboard)
+2023-07-20 21:46:36,896 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=cde)
+2023-07-20 21:46:36,902 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=cognos_analytics)
+2023-07-20 21:46:36,908 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=openscale)
+2023-07-20 21:46:36,914 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dv)
+2023-07-20 21:46:36,920 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dp)
+2023-07-20 21:46:36,926 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=wkc)
+2023-07-20 21:46:36,932 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=wml)
+2023-07-20 21:46:36,938 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=rstudio)
+2023-07-20 21:46:36,943 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=spss)
+2023-07-20 21:46:36,948 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=ws)
+2023-07-20 21:46:36,955 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=db2aaservice)
+2023-07-20 21:46:36,962 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=db2u)
+2023-07-20 21:46:36,968 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=dmc)
+2023-07-20 21:46:36,974 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=mantaflow)
+2023-07-20 21:46:36,981 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=iis)
+2023-07-20 21:46:36,987 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=datarefinery)
+2023-07-20 21:46:36,994 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=analyticsengine)
+2023-07-20 21:46:37,000 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=ccs)
+2023-07-20 21:46:37,007 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=cpd_platform)
+2023-07-20 21:46:37,014 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=scheduler)
+2023-07-20 21:46:37,021 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=zen)
+2023-07-20 21:46:37,028 p=8247 u=ansible n=ansible | included: /opt/ansible/ansible-play/roles/utils/tasks/get_status_cr.yml for localhost => (item=cpfs)
+2023-07-20 21:46:37,044 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:38,783 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:38,795 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:38,889 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:38,929 p=8247 u=ansible n=ansible | TASK [utils : check CR status for redis if it exists] **************************
+2023-07-20 21:46:38,981 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:38,988 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:39,037 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:39,051 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:39,092 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:39,107 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:39,162 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:39,188 p=8247 u=ansible n=ansible | TASK [utils : check CR status for FACTSHEET if it exists] **********************
+2023-07-20 21:46:42,024 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:42,034 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:42,092 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:42,133 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:42,142 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:42,200 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:42,234 p=8247 u=ansible n=ansible | TASK [utils : check CR status for ReplicationService if it exists] *************
+2023-07-20 21:46:45,053 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:45,058 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:45,132 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:45,184 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:45,190 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:45,237 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:45,252 p=8247 u=ansible n=ansible | TASK [utils : check CR status for DpraService if it exists] ********************
+2023-07-20 21:46:48,055 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:48,065 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:48,116 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:48,171 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:48,179 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:48,233 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:48,259 p=8247 u=ansible n=ansible | TASK [utils : check CR status for EstapServiceCPDAddOn if it exists] ***********
+2023-07-20 21:46:51,289 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:51,296 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:51,349 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:51,407 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:51,414 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:51,471 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:51,493 p=8247 u=ansible n=ansible | TASK [utils : check CR status for WSPipelines if it exists] ********************
+2023-07-20 21:46:54,323 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:54,333 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:54,404 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:54,468 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:54,476 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:54,540 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:54,572 p=8247 u=ansible n=ansible | TASK [utils : check CR status for model_train_classic if it exists] ************
+2023-07-20 21:46:54,655 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:54,669 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:54,764 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:54,797 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:54,852 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:54,864 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:54,910 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:54,941 p=8247 u=ansible n=ansible | TASK [utils : check CR status for model_train_dwf if it exists] ****************
+2023-07-20 21:46:55,025 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:55,038 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:55,191 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:55,204 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:55,247 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:55,253 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:55,298 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:55,334 p=8247 u=ansible n=ansible | TASK [utils : check CR status for model_train if it exists] ********************
+2023-07-20 21:46:55,384 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:55,391 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:55,450 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:55,479 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:55,532 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:55,543 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:55,587 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:55,605 p=8247 u=ansible n=ansible | TASK [utils : check CR status for data_governor if it exists] ******************
+2023-07-20 21:46:55,652 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:55,657 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:55,731 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:55,759 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:55,834 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:55,846 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:55,904 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:55,937 p=8247 u=ansible n=ansible | TASK [utils : check CR status for watson_gateway if it exists] *****************
+2023-07-20 21:46:55,992 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,000 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:56,052 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,076 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:56,117 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,125 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:56,164 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,186 p=8247 u=ansible n=ansible | TASK [utils : check CR status for opencontent_auditwebhook if it exists] *******
+2023-07-20 21:46:56,258 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,266 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:56,336 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,351 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:56,387 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,393 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:56,432 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,452 p=8247 u=ansible n=ansible | TASK [utils : check CR status for opencontent_etcd if it exists] ***************
+2023-07-20 21:46:56,501 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,514 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:56,603 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,618 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:56,666 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,678 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:56,725 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,746 p=8247 u=ansible n=ansible | TASK [utils : check CR status for opencontent_minio if it exists] **************
+2023-07-20 21:46:56,810 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,816 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:56,869 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,902 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:56,958 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:56,967 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:57,013 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:57,041 p=8247 u=ansible n=ansible | TASK [utils : check CR status for NotebookRuntime if it exists] ****************
+2023-07-20 21:46:58,652 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:46:58,663 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:46:58,747 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:46:58,814 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:58,821 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:46:58,879 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:46:58,902 p=8247 u=ansible n=ansible | TASK [utils : check CR status for WatsonSpeech if it exists] *******************
+2023-07-20 21:47:02,057 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:02,070 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:02,160 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:02,224 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:02,241 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:02,309 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:02,342 p=8247 u=ansible n=ansible | TASK [utils : check CR status for Wmla if it exists] ***************************
+2023-07-20 21:47:05,184 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:05,198 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:05,280 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:05,338 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:05,346 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:05,411 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:05,437 p=8247 u=ansible n=ansible | TASK [utils : check CR status for Wmla-add-on if it exists] ********************
+2023-07-20 21:47:08,424 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:08,439 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:08,523 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:08,582 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:08,587 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:08,648 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:08,684 p=8247 u=ansible n=ansible | TASK [utils : check CR status for KnowledgeStudio if it exists] ****************
+2023-07-20 21:47:11,678 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:11,686 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:11,730 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:11,762 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:11,767 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:11,798 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:11,815 p=8247 u=ansible n=ansible | TASK [utils : check CR status for WatsonDiscovery if it exists] ****************
+2023-07-20 21:47:14,920 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:14,934 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:14,987 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:15,029 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:15,044 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:15,088 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:15,105 p=8247 u=ansible n=ansible | TASK [utils : check CR status for WatsonAssistant if it exists] ****************
+2023-07-20 21:47:18,219 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:18,228 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:18,325 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:18,387 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:18,400 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:18,467 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:18,506 p=8247 u=ansible n=ansible | TASK [utils : check CR status for VoiceGateway if it exists] *******************
+2023-07-20 21:47:21,592 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:21,601 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:21,671 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:21,727 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:21,733 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:21,798 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:21,832 p=8247 u=ansible n=ansible | TASK [utils : check CR status for ProductMaster if it exists] ******************
+2023-07-20 21:47:24,757 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:24,765 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:24,838 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:24,898 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:24,907 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:24,966 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:25,004 p=8247 u=ansible n=ansible | TASK [utils : check CR status for ProductMasterService if it exists] ***********
+2023-07-20 21:47:28,096 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:28,104 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:28,153 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:28,209 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:28,222 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:28,262 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:28,283 p=8247 u=ansible n=ansible | TASK [utils : check CR status for PAService if it exists] **********************
+2023-07-20 21:47:31,067 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:31,073 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:31,129 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:31,178 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:31,191 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:31,249 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:31,266 p=8247 u=ansible n=ansible | TASK [utils : check CR status for OpenPagesInstance if it exists] **************
+2023-07-20 21:47:34,119 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:34,125 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:34,174 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:34,228 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:34,238 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:34,298 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:34,332 p=8247 u=ansible n=ansible | TASK [utils : check CR status for OpenPagesService if it exists] ***************
+2023-07-20 21:47:37,044 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:37,059 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:37,125 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:37,186 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:37,196 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:37,260 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:37,293 p=8247 u=ansible n=ansible | TASK [utils : check CR status for CPDMongoDBService if it exists] **************
+2023-07-20 21:47:40,120 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:40,128 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:40,172 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:40,222 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:40,231 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:40,278 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:40,294 p=8247 u=ansible n=ansible | TASK [utils : check CR status for mongodb if it exists] ************************
+2023-07-20 21:47:40,356 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:40,362 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:40,425 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:40,439 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:40,488 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:40,494 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:40,548 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:40,564 p=8247 u=ansible n=ansible | TASK [utils : check CR status for InformixService if it exists] ****************
+2023-07-20 21:47:43,272 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:43,284 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:43,357 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:43,414 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:43,418 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:43,465 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:43,502 p=8247 u=ansible n=ansible | TASK [utils : check CR status for Informix if it exists] ***********************
+2023-07-20 21:47:46,422 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:46,428 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:46,481 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:46,538 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:46,550 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:46,611 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:46,648 p=8247 u=ansible n=ansible | TASK [utils : check CR status for fdb_k8s if it exists] ************************
+2023-07-20 21:47:46,695 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:46,706 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:46,750 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:46,764 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:46,814 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:46,820 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:46,885 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:46,915 p=8247 u=ansible n=ansible | TASK [utils : check CR status for fdbcluster if it exists] *********************
+2023-07-20 21:47:49,755 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:49,761 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:49,812 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:49,867 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:49,873 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:49,922 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:49,939 p=8247 u=ansible n=ansible | TASK [utils : check CR status for opencontent_rabbitmq if it exists] ***********
+2023-07-20 21:47:50,010 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:50,020 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:50,099 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:50,125 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:50,191 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:50,200 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:50,259 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:50,285 p=8247 u=ansible n=ansible | TASK [utils : check CR status for opencontent_redis if it exists] **************
+2023-07-20 21:47:50,360 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:50,368 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:50,418 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:50,445 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:50,482 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:50,487 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:50,536 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:50,572 p=8247 u=ansible n=ansible | TASK [utils : check CR status for opencontent_elasticsearch if it exists] ******
+2023-07-20 21:47:50,656 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:50,669 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:50,748 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:50,776 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:50,831 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:50,837 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:50,885 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:50,900 p=8247 u=ansible n=ansible | TASK [utils : check CR status for MasterDataManagement if it exists] ***********
+2023-07-20 21:47:53,715 p=8247 u=ansible n=ansible | ok: [localhost]
+2023-07-20 21:47:53,728 p=8247 u=ansible n=ansible | TASK [utils : for all CRs that were found] *************************************
+2023-07-20 21:47:53,782 p=8247 u=ansible n=ansible | TASK [utils : Check if user have permission to access cp4d] ********************
+2023-07-20 21:47:53,840 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:53,851 p=8247 u=ansible n=ansible | TASK [utils : set_fact] ********************************************************
+2023-07-20 21:47:53,897 p=8247 u=ansible n=ansible | skipping: [localhost]
+2023-07-20 21:47:53,915 p=8247 u=ansible n=ansible | TASK [utils : check CR status for Hadoop if it exists] *************************
+2023-07-20 21:47:55,921 p=8247 u=ansible n=ansible |  [ERROR]: User interrupted execution
+

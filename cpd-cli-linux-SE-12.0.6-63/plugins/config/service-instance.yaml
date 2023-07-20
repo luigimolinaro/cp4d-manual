@@ -1,0 +1,14 @@
+name: Service instance management plugin top-level commands
+cpd-min-version: 3.5.0
+plugin-type: executable
+plugin-id: service-instance
+plugin-version: 0.1.0
+executable:
+  darwin: platform-mgmt
+  linux: platform-mgmt
+  windows: platform-mgmt.exe
+  ppc64le: platform-mgmt
+  s390x: platform-mgmt
+alias: service-instance
+alias-help-text: Manage service instance
+default-command: service-instance

@@ -1,0 +1,13 @@
+name: Manage (Olm-utils) plugin top-level commands
+cpd-min-version: 4.0   # TODO: double check min version
+plugin-type: executable
+plugin-id: manage
+plugin-version: 0.1.0  # TODO: double check plugin version
+executable:
+  darwin: manage
+  linux: manage
+  windows: manage.exe
+  ppc64le: manage
+  s390x: manage
+alias: manage
+alias-help-text: Manage cluster. Operator based installation and management

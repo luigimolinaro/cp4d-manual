@@ -1,0 +1,13 @@
+name: Diagnostics plugin top-level commands
+cpd-min-version: 3.5.0
+plugin-type: executable
+plugin-id: platform-diag
+plugin-version: 0.1.0
+executable:
+  darwin: platform-diag
+  linux: platform-diag
+  windows: platform-diag.exe
+  ppc64le: platform-diag
+  s390x: platform-diag
+alias: diag
+alias-help-text: Run diagnostics commands

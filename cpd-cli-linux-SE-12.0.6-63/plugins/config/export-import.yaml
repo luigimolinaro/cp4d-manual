@@ -1,0 +1,14 @@
+name: Export and import management plugin top-level commands
+cpd-min-version: 4.0.0
+plugin-id: export-import
+plugin-type: executable
+plugin-version: 4.0.0
+executable:
+  darwin: cpdtool
+  linux: cpdtool
+  windows: cpdtool.exe
+  ppc64le: cpdtool
+# s390x: cpdtool
+alias: export-import
+alias-help-text: manage import and export
+require-profile-info: true

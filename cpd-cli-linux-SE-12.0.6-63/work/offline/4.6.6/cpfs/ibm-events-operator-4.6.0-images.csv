@@ -1,0 +1,9 @@
+registry,image_name,tag,digest,mtype,os,arch,variant,insecure,digest_source,image_type,groups
+icr.io,cpopen/ibm-events-operator,4.6.0,sha256:b18c5d744843440226c3a2f43271edb78dfce06549b19fd1fbc65608b5928614,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/ibm-events-operator,4.6.0-amd64,sha256:0cda1a020ea22900a642e926447e5d9fb501d31df2d87a2e2654cf4a893d1300,IMAGE,linux,amd64,"",0,CASE,"",""
+icr.io,cpopen/ibm-events-operator,4.6.0-ppc64le,sha256:2f52ecda6e7fad593b19f20ca6000c6dc575e4d0adb41f46e8975eeb06c6f6cd,IMAGE,linux,ppc64le,"",0,CASE,"",""
+icr.io,cpopen/ibm-events-operator,4.6.0-s390x,sha256:7862b37b02bebde4362049b2599c3ff2abe5790201f4d6a881cac9d6d37f9951,IMAGE,linux,s390x,"",0,CASE,"",""
+icr.io,cpopen/cpfs/ibm-events-kafka-3.4.0,4.6.0,sha256:c0eb8c824343f7f8d9aafcb79984535e984410e568c236f8a7832a1811817fcf,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/ibm-events-kafka-3.4.0,4.6.0-amd64,sha256:5f38fafcd719b8d7dbad2e24e9e7e38a108d7bc4ec9096a83cedc53d8cb8907e,IMAGE,linux,amd64,"",0,CASE,"",""
+icr.io,cpopen/cpfs/ibm-events-kafka-3.4.0,4.6.0-ppc64le,sha256:05bb3bf3bc47a0a062725ef46e942a70e916fc1a45d12ca7f155522bc47833f3,IMAGE,linux,ppc64le,"",0,CASE,"",""
+icr.io,cpopen/cpfs/ibm-events-kafka-3.4.0,4.6.0-s390x,sha256:31716ba40f8fe6721cefde42b1603dadcfe8420587c03c643d84ba9964ce408b,IMAGE,linux,s390x,"",0,CASE,"",""

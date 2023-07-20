@@ -1,0 +1,37 @@
+supportsRelatedImages: true
+admCatalogMirror:
+  sourceCatalogs:
+  - catalog: icr.io/cpopen/ibm-cpd-ccs-operator-catalog@sha256:50a60a82087c478df6a888b277f16995d608b8b74159c6290b3ad5990dd9c333
+    imageType: LIST
+    architecture: ""
+    variant: ""
+    os: ""
+    isTopLevelCatalog: "true"
+    mediaType: registry+v1
+    mirrorImageSource: "false"
+  - catalog: icr.io/cpopen/ibm-cpd-ccs-operator-catalog@sha256:4c67c8258a795e90a2fe855b4346dff11c04acd4552ce867ce32f0d094832e65
+    imageType: IMAGE
+    architecture: amd64
+    variant: ""
+    os: linux
+    isTopLevelCatalog: "false"
+    mediaType: registry+v1
+    mirrorImageSource: "false"
+  - catalog: icr.io/cpopen/ibm-cpd-ccs-operator-catalog@sha256:d38fad78e9072e53b603e65439ac1cd9431777376d29756672b38850091af3e1
+    imageType: IMAGE
+    architecture: s390x
+    variant: ""
+    os: linux
+    isTopLevelCatalog: "false"
+    mediaType: registry+v1
+    mirrorImageSource: "false"
+  - catalog: icr.io/cpopen/ibm-cpd-ccs-operator-catalog@sha256:0cd8da657940c9c749b97f8ef9a862c0fc798a6abf0de5b29176a8a148c984db
+    imageType: IMAGE
+    architecture: ppc64le
+    variant: ""
+    os: linux
+    isTopLevelCatalog: "false"
+    mediaType: registry+v1
+    mirrorImageSource: "false"
+isc:
+  operators: []

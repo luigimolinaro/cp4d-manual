@@ -1,0 +1,14 @@
+name: User management plugin top-level commands
+cpd-min-version: 3.5.0
+plugin-type: executable
+plugin-id: user-mgmt
+plugin-version: 0.1.0
+executable:
+  darwin: platform-mgmt
+  linux: platform-mgmt
+  windows: platform-mgmt.exe
+  ppc64le: platform-mgmt
+  s390x: platform-mgmt
+alias: user-mgmt
+alias-help-text: Manage users
+default-command: user-mgmt

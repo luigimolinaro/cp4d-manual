@@ -1,0 +1,702 @@
+apiVersion: v1
+containerImages:
+- caseVersions:
+  - 1.0.3
+  category: catalog
+  digest: sha256:49d8b70ec35ba750e530237d8c8c77499b70f87cba22f4df59f4bd5cf5d92e9f
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.3-383-amd64
+- caseVersions:
+  - 1.0.3
+  category: catalog
+  digest: sha256:7e860d64f279591f341396c3c5a45b04ddad5b75879b57b4b2c6b4d1217f352a
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.3-383-ppc64le
+- caseVersions:
+  - 1.0.3
+  category: catalog
+  digest: sha256:ec14fceaeb057a9f27ee92a644f7aacb0a1b68c91501ef4f8e96bcffe7848d53
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.3-383-s390x
+- caseVersions:
+  - 1.0.3
+  category: catalog
+  digest: sha256:10a547c7a34ceb554ecef68fe1478366942e283b2bc837811f0279e7c1fef755
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 4.0.3-383
+- caseVersions:
+  - 1.0.2
+  category: catalog
+  digest: sha256:7e834d053107d3ce7e0e0c3f58d54be4cafb83bd100bb99b45ee791b3085c3de
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.2-358-amd64
+- caseVersions:
+  - 1.0.2
+  category: catalog
+  digest: sha256:eb0b82e0a5a2fe7971664d112cded4ed195cc142a597367002eaaa3bc1312a87
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.2-358-ppc64le
+- caseVersions:
+  - 1.0.2
+  category: catalog
+  digest: sha256:a8983f5a319ac640161383ac77e3597273ab9465d5b8f802d3b9b4e4140ef004
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 4.0.2-358
+- caseVersions:
+  - 1.0.0
+  category: catalog
+  digest: sha256:27c6b458244a7c8d12da72a18811d797a1bef19dadf84b38cedf6461fe53643a
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: 1.0-20210610.034749
+- caseVersions:
+  - 1.0.1
+  category: catalog
+  digest: sha256:2cc547177fdba97d3130a8946c05c6befd415505f85f3287843a9768527c1e20
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.1-325-amd64
+- caseVersions:
+  - 1.0.1
+  category: catalog
+  digest: sha256:e201712b51013e945b679dc5c3e7a45b3e68db5718f3f21731d374453981565c
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 4.0.1-325
+- caseVersions:
+  - 1.0.4
+  category: catalog
+  digest: sha256:9f43ca50eb6ddf60f1c0ca878b8ab29a461155c759ab53c784f720589379df99
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.4-400-amd64
+- caseVersions:
+  - 1.0.4
+  category: catalog
+  digest: sha256:889875fcac2254cedf9da3964c9414a1875d0c3bfab709baa17c6a12569a6d0b
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.4-400-ppc64le
+- caseVersions:
+  - 1.0.4
+  category: catalog
+  digest: sha256:6f478ecced20a3a74039691b63614a11d455f7fcba1efa9562a09ef38cde35fd
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.4-400-s390x
+- caseVersions:
+  - 1.0.4
+  category: catalog
+  digest: sha256:e163f4d555cf0cedea4df541bb616d28868663f26c40310120385a3f33676ce2
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 4.0.4-400
+- caseVersions:
+  - 1.0.5
+  category: catalog
+  digest: sha256:915d897a0f9941e89437aed45aefdbf7eab0b20b1bf3f0fc3679fdd333f335fd
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.5-407-amd64
+- caseVersions:
+  - 1.0.5
+  category: catalog
+  digest: sha256:3e6c512fc9cfc801a9456cc6b93b4b587e53bb990a9f6df1e65753672286e1ab
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.5-407-ppc64le
+- caseVersions:
+  - 1.0.5
+  category: catalog
+  digest: sha256:da81740dcce8a784d66e2ea478e2b9e23f9758d05f9cb8b4c5ee4db18f35cf05
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.5-407-s390x
+- caseVersions:
+  - 1.0.5
+  category: catalog
+  digest: sha256:47d5e286326f81056f9a473e885922bfd2943b49e74c1f44d8531fd02e5da82f
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 4.0.5-407
+- caseVersions:
+  - 1.0.6
+  category: catalog
+  digest: sha256:731973aba73cafbc90047c166ec4a98e9667daf2b6ae9fca63dc4e789d837a0f
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.6-429-amd64
+- caseVersions:
+  - 1.0.6
+  category: catalog
+  digest: sha256:cfa9484f308dd3ca24294b78f7cb4316905a8ed6a7bfb163e0f391800f8641ad
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.6-429-ppc64le
+- caseVersions:
+  - 1.0.6
+  category: catalog
+  digest: sha256:5e6449a277d17899fbd72cdb99185d25376996001d93779a02639cc34b425987
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.6-429-s390x
+- caseVersions:
+  - 1.0.6
+  category: catalog
+  digest: sha256:2db18c759ca833db63c63bac6ca7c640c6bad79ef2a91032aacbfc07a6eb6d0e
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 4.0.6-429
+- caseVersions:
+  - 1.0.7
+  category: catalog
+  digest: sha256:4f8f33d2368d027f123708eb215fc2e5526b8bcc821d57b0e78c88cca91720e5
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.7-472-amd64
+- caseVersions:
+  - 1.0.7
+  category: catalog
+  digest: sha256:3e2befb692a1525b25ad0e259af1ae95fb7928d6367e8d45e4233882459a5853
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.7-472-s390x
+- caseVersions:
+  - 1.0.7
+  category: catalog
+  digest: sha256:48d151a882007b806fc7d6742183034dec7519e2fc7c5bda9157c02a37e565a5
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 4.0.7-472
+- caseVersions:
+  - 1.0.8
+  category: catalog
+  digest: sha256:fb9b065d9f64cc627eef1f4001ccac4edb2fc9d110b5084690924e6bf5b9aa56
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.8-488-amd64
+- caseVersions:
+  - 1.0.8
+  category: catalog
+  digest: sha256:f38eb3a8c6a422755fe77ec82a2304a2e4962a92cdcbd2a494d0cf9a20813268
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.8-488-s390x
+- caseVersions:
+  - 1.0.8
+  category: catalog
+  digest: sha256:1da668f3b191e08059164325b013688cbc5657bec24383827b4b367a88bec3e3
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 4.0.8-488
+- caseVersions:
+  - 1.0.9
+  category: catalog
+  digest: sha256:6d12a9068ca86864ddac8befe144747edc34156ce084f7902c3efd5ef618eca0
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.9-513-amd64
+- caseVersions:
+  - 1.0.9
+  category: catalog
+  digest: sha256:acdd17c1faf7bd294b93e26d7876e47e877508363ce44e2e7d3a2af22107085c
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.9-513-s390x
+- caseVersions:
+  - 1.0.9
+  category: catalog
+  digest: sha256:7790c141e93d830057372f85047b283776642fd898e653f7e397f98658c857a1
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 4.0.9-513
+- caseVersions:
+  - 1.0.10
+  category: catalog
+  digest: sha256:76fe2696a79629903dd5394c5d323f4476abd487d2d9ddb7cce10e01e1b8e5dd
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.10-569-amd64
+- caseVersions:
+  - 1.0.10
+  category: catalog
+  digest: sha256:360d36012f25d4ca59cc3de6600568d9db9e6643e23fd86d89386932e6e237df
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 4.0.10-569-s390x
+- caseVersions:
+  - 1.0.10
+  category: catalog
+  digest: sha256:dbcf5496a3261595b344a3ec3782fbebdce4733f3a94bac67daacd71b2c10451
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 4.0.10-569
+- caseVersions:
+  - 2.0.0
+  category: catalog
+  digest: sha256:90d52ba9a1808e50ae2fa3b982d17ffcc3796d6089aabbc03b7518e61b9c0307
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 4.5.0-589-amd64
+- caseVersions:
+  - 2.0.0
+  category: catalog
+  digest: sha256:282479b96610d4b60d699904d30ac8870ae8407b866938890d556fea1275edfc
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 4.5.0-589-ppc64le
+- caseVersions:
+  - 2.0.0
+  category: catalog
+  digest: sha256:2188e7771a64c909adf6187cb32932bfcf4f674339a1080d43338e6dbdb7a689
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 4.5.0-589-s390x
+- caseVersions:
+  - 2.0.0
+  category: catalog
+  digest: sha256:1be8af2b5940f1ecc59aa7c5015f8d3783a59b271c76a053d83df8c5f4779e60
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 4.5.0-589
+- caseVersions:
+  - 2.1.0
+  category: catalog
+  digest: sha256:bd4c3c35bf15f61066e4de2e02eb62bc7ceeb96eca5adfcc29e2cc88c9bfd9f9
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 4.5.1-601-amd64
+- caseVersions:
+  - 2.1.0
+  category: catalog
+  digest: sha256:b4da2befa942ad20e5919bab67fd4a8b28dbc3bbd74d19d177fdd14a577bfeed
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 4.5.1-601-ppc64le
+- caseVersions:
+  - 2.1.0
+  category: catalog
+  digest: sha256:1a19c4881b433660ee54bcf7e07034c9b3836212fc310d68075ca32694a028b1
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 4.5.1-601-s390x
+- caseVersions:
+  - 2.1.0
+  category: catalog
+  digest: sha256:746ccdca1bc82a45ce806c9d07c4f7b68fee72df6ed9adaf46bdffc4d217f9cd
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 4.5.1-601
+- caseVersions:
+  - 2.2.0
+  category: catalog
+  digest: sha256:1ed5d131530a6124ed51d4929c066c60a0fe276100af093e3ec609c3d4d1d290
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 4.5.2-618-amd64
+- caseVersions:
+  - 2.2.0
+  category: catalog
+  digest: sha256:405e320729af05ec9e9cc25afe4470dc3fceacd39b7362b5c1c29eb8679f8aa6
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 4.5.2-618-ppc64le
+- caseVersions:
+  - 2.2.0
+  category: catalog
+  digest: sha256:cc6d1bab6630e781d13c87350c818e665f0a291792bee3bf9d7532b4ec2645eb
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 4.5.2-618-s390x
+- caseVersions:
+  - 2.2.0
+  category: catalog
+  digest: sha256:79db4fd0639249cd7a24d15f5e520f38df71be20724563006ef31eedda30edf4
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 4.5.2-618
+- caseVersions:
+  - 2.3.0
+  category: catalog
+  digest: sha256:18555fed4a1e7d5267aa35035958a111bab162c3669dd130bbe2ce749d0cbe46
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 4.5.3-631-amd64
+- caseVersions:
+  - 2.3.0
+  category: catalog
+  digest: sha256:a8704ace652a1b4b2726623d0aa4b29195b8425a226391836946883cdcb3b715
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 4.5.3-631-ppc64le
+- caseVersions:
+  - 2.3.0
+  category: catalog
+  digest: sha256:4e27707d08c0f0f2b19effab3d915c973a04bf7278108a229b44982acd978567
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 4.5.3-631-s390x
+- caseVersions:
+  - 2.3.0
+  category: catalog
+  digest: sha256:fbc8e164eeab2802374e79593e46ed5c9138b2d9a9a806ac9a021225d0c77c53
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 4.5.3-631
+- caseVersions:
+  - 6.0.0
+  category: catalog
+  digest: sha256:e3c651941e49919aea0b89aab72d10a3d9f699a7ccc1c337983fa386f96c8cdb
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.0.0-658-amd64
+- caseVersions:
+  - 6.0.0
+  category: catalog
+  digest: sha256:cc69a3128ab82a6444d39faff4e98e4282ebef8b9b1b0d1ce126671fd2709d33
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.0.0-658-ppc64le
+- caseVersions:
+  - 6.0.0
+  category: catalog
+  digest: sha256:b3138469ce491fe560663db01d1d7e23819b85715e9180378827a311dea15613
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 6.0.0-658-s390x
+- caseVersions:
+  - 6.0.0
+  category: catalog
+  digest: sha256:d288a031baa48a06c0652d978e7f7f2d703ab4f3cf062066c04a2d24670d899b
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.0.0-658
+- caseVersions:
+  - 6.1.0
+  category: catalog
+  digest: sha256:3111a5f5f6f989efd37e5fdbb3f32c058f6437c649b03a3e05d0b4dbe9ee5ab5
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.1.0-666-amd64
+- caseVersions:
+  - 6.1.0
+  category: catalog
+  digest: sha256:bd9393d8fa563f9546f2f0bc050ef4b5f654bad427e3a067a5a427497d17f104
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.1.0-666-ppc64le
+- caseVersions:
+  - 6.1.0
+  category: catalog
+  digest: sha256:28d6c77b1160f15f24c56a81b8998a111d19f43d7444e1f543e83bb2f4903e8a
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 6.1.0-666-s390x
+- caseVersions:
+  - 6.1.0
+  category: catalog
+  digest: sha256:104cf0f5abfe18a285e9589fecb505cbf6b7fedba2cfe83ad833f385d543e9cc
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.1.0-666
+- caseVersions:
+  - 6.3.0
+  category: catalog
+  digest: sha256:95f8be4cdbaa76564b8ab2f8169b5630302bb52693db1e2fa56d5dfb85706a98
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.3.0-689-amd64
+- caseVersions:
+  - 6.3.0
+  category: catalog
+  digest: sha256:41682217843e63d9a36fb0a64bc9b52f9f62d16883a81f822ab48cd45951f53b
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.3.0-689-ppc64le
+- caseVersions:
+  - 6.3.0
+  category: catalog
+  digest: sha256:df24e8ebff27601be72fccd752724e912ebc303f1d887076eae4ddc7fa9276a9
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 6.3.0-689-s390x
+- caseVersions:
+  - 6.3.0
+  category: catalog
+  digest: sha256:2d60e62f9633026fd1d6d1f8588b23911a851b2debc2cecb7f68b3c26672d5c1
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.3.0-689
+- caseVersions:
+  - 6.4.0
+  category: catalog
+  digest: sha256:187a49b043062af2d8735d1331971e26ddd0690cf3e0484e2d218290166c3669
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.4.0-712-amd64
+- caseVersions:
+  - 6.4.0
+  category: catalog
+  digest: sha256:bd00643b0e8295e5e304456362e51d13e87e8aa1654cee1d767e735caa297270
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.4.0-712-ppc64le
+- caseVersions:
+  - 6.4.0
+  category: catalog
+  digest: sha256:f556f46f40608ab34518e9044cb2164d7cdea5dad176052d0f9ebde2212d36cb
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 6.4.0-712-s390x
+- caseVersions:
+  - 6.4.0
+  category: catalog
+  digest: sha256:97234718dd59c90714c69f38aef1d4974d14d987687ec6d812687887db3f7963
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.4.0-712
+- caseVersions:
+  - 6.5.0
+  category: catalog
+  digest: sha256:6fc5aaa3c4549b31e8eabb0296d1cb8cc98d33e81063440808f3c0436389b927
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 6.5.0-744-amd64
+- caseVersions:
+  - 6.5.0
+  category: catalog
+  digest: sha256:11b393c0fc7a3048a9ef02a3958e5e1397927e50587977fa34d3d1ee7260cb31
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 6.5.0-744-ppc64le
+- caseVersions:
+  - 6.5.0
+  category: catalog
+  digest: sha256:cfcf03e6eecc0f5e324b8e0b42273a127b8eeeaa1955d549f50a4cda08540bd2
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 6.5.0-744-s390x
+- caseVersions:
+  - 6.5.0
+  category: catalog
+  digest: sha256:90a14beb84082fd65966a367b03f8268ef4569504d72d5828eab4367c99afc15
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 6.5.0-744
+- caseVersions:
+  - 7.0.0
+  category: catalog
+  digest: sha256:76a9671a49959ad8967da65995501ffc54eb19364932ac87524f86b319b64978
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: 7.0.0-43-amd64
+- caseVersions:
+  - 7.0.0
+  category: catalog
+  digest: sha256:9ed2d6819376982ee8d854efd5d275c0fd6f1e34d6aa8c22a4c07a3b5526ac8d
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: ppc64le
+    imagetype: manifestList
+    os: linux
+  tag: 7.0.0-43-ppc64le
+- caseVersions:
+  - 7.0.0
+  category: catalog
+  digest: sha256:a1f6fc557a0bc1412412d9158cb9b9bc0c8d9c481984dbc4031c766b6ddefa53
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    architecture: s390x
+    imagetype: manifestList
+    os: linux
+  tag: 7.0.0-43-s390x
+- caseVersions:
+  - 7.0.0
+  category: catalog
+  digest: sha256:53705083284bbc2009f058b089a9770d4b4b0da79d06d86a96974b2e92592138
+  image: cpopen/ibm-cpd-datarefinery-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: 7.0.0-43

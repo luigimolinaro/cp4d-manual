@@ -1,0 +1,10 @@
+time="2023-07-20T23:38:49.306407Z" level=info msg="manage(olm-utils)" event=Information info="Checking architecture: amd64" trace=618a67c9-a54a-458f-9978-c0f8d31ff833
+time="2023-07-20T23:38:49.306893Z" level=info msg="manage(olm-utils)" event=Information info="Checking podman or docker" trace=618a67c9-a54a-458f-9978-c0f8d31ff833
+time="2023-07-20T23:38:49.374605Z" level=info msg="manage(olm-utils)" event=Information info="Dockerexe: podman" trace=618a67c9-a54a-458f-9978-c0f8d31ff833
+time="2023-07-20T23:38:49.374835Z" level=info msg="manage(olm-utils)" event=Information info="User-specified workspace: /root/IBM/cp4d-manual-install/cpd-cli" trace=618a67c9-a54a-458f-9978-c0f8d31ff833
+time="2023-07-20T23:38:49.546187Z" level=info msg="manage(olm-utils)" event=Information info="Container olm-utils-play is running already. Image: icr.io/cpopen/cpd/olm-utils:latest" trace=618a67c9-a54a-458f-9978-c0f8d31ff833
+time="2023-07-20T23:38:49.732022Z" level=info msg="manage(olm-utils)" event=Information info="Processing subcommand get-cr-status" trace=618a67c9-a54a-458f-9978-c0f8d31ff833
+time="2023-07-20T23:38:49.732177Z" level=info msg="manage(olm-utils)" event=Information info="Run command: podman exec -it olm-utils-play get-cr-status --cpd_instance_ns=cp4d" trace=618a67c9-a54a-458f-9978-c0f8d31ff833
+time="2023-07-20T23:39:08.147459Z" level=error msg="manage(olm-utils)" error="cmd.Run() failed with exit status 1" event=Exception trace=618a67c9-a54a-458f-9978-c0f8d31ff833
+time="2023-07-20T23:39:08.147657Z" level=error msg="manage(olm-utils)" error="Command exception: The get-cr-status command failed (exit status 1). You may find output and logs in the /root/IBM/cp4d-manual-install/cpd-cli/work directory." event=Exception trace=618a67c9-a54a-458f-9978-c0f8d31ff833
+time="2023-07-20T23:39:08.149861Z" level=error msg=cpd-cli error="RunPluginCommand:Execution error:  exit status 1" event=Exception trace=618a67c9-a54a-458f-9978-c0f8d31ff833

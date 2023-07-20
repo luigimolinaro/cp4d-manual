@@ -1,0 +1,14 @@
+name: Backup and restore management plugin for OADP top-level commands
+cpd-min-version: 4.0.0
+plugin-id: oadp
+plugin-type: executable
+plugin-version: 4.0.0
+executable:
+  darwin: cpdbr-oadp
+  linux: cpdbr-oadp
+  windows: cpdbr-oadp.exe
+  ppc64le: cpdbr-oadp
+# s390x: cpdbr-oadp
+alias: oadp
+alias-help-text: manage backup and restore for OADP
+#require-profile-info: true
