@@ -13,18 +13,18 @@ nodes=(
   "compute-1-ru8.ocp-psa-01.gbbper.priv"
 )
 
-# Function to taint a node
-function taint_node() {
+# Function to cordon a node
+function cordon_node() {
   local node="$1"
-  echo "Tainting node $node..."
-  oc adm taint nodes "$node" key=value:NoSchedule-
+  echo "Cordoning node $node..."
+  oc adm cordon "$node"
 }
 
-# Function to untaint a node
-function untaint_node() {
+# Function to uncordon a node
+function uncordon_node() {
   local node="$1"
-  echo "Untainting node $node..."
-  oc adm taint nodes "$node" key=value:NoSchedule
+  echo "Uncordoning node $node..."
+  oc adm uncordon "$node"
 }
 
 # Print the available nodes
@@ -45,14 +45,15 @@ fi
 # Index of the array is selected_index - 1
 selected_node="${nodes[$(($selected_index - 1))]}"
 
-# Taint all nodes except the selected one
+# Cordon all nodes except the selected one
 for node in "${nodes[@]}"; do
   if [[ "$node" != "$selected_node" ]]; then
-    taint_node "$node"
+    cordon_node "$node"
   fi
 done
 
-# Untaint the selected node
-untaint_node "$selected_node"
+# Uncordon the selected node
+uncordon_node "$selected_node"
 
 echo "Operation completed."
+
