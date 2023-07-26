@@ -1,17 +1,7 @@
 #!/bin/bash
 
-# List of nodes
-nodes=(
-  "compute-1-ru10.ocp-psa-01.gbbper.priv"
-  "compute-1-ru11.ocp-psa-01.gbbper.priv"
-  "compute-1-ru12.ocp-psa-01.gbbper.priv"
-  "compute-1-ru13.ocp-psa-01.gbbper.priv"
-  "compute-1-ru5.ocp-psa-01.gbbper.priv"
-  "compute-1-ru6.ocp-psa-01.gbbper.priv"
-  "compute-1-ru7.ocp-psa-01.gbbper.priv"
-  "compute-1-ru8.ocp-psa-01.gbbper.priv"
-  "compute-1-ru8.ocp-psa-01.gbbper.priv"
-)
+# Get the list of nodes from the OpenShift cluster and store them in an array
+readarray -t nodes <<< "$(oc get nodes --no-headers -o custom-columns=NAME:.metadata.name)"
 
 # Function to cordon a node
 function cordon_node() {
@@ -45,15 +35,5 @@ fi
 # Index of the array is selected_index - 1
 selected_node="${nodes[$(($selected_index - 1))]}"
 
-# Cordon all nodes except the selected one
-for node in "${nodes[@]}"; do
-  if [[ "$node" != "$selected_node" ]]; then
-    cordon_node "$node"
-  fi
-done
-
-# Uncordon the selected node
-uncordon_node "$selected_node"
-
-echo "Operation completed."
+# Cordon all nodes except
 
