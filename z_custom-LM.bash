@@ -7,6 +7,10 @@ wget https://github.com/IBM/cpd-cli/releases/download/v13.0.0/cpd-cli-linux-SE-1
 wget https://github.com/IBM/cpd-cli/releases/download/v12.0.6/cpd-cli-linux-SE-12.0.6.tgz
 #LOGIN
 ${CLI} manage login-to-ocp --token=${OCP_TOKEN} --server=${OCP_URL}
+# APPLY-CRIO
+cpd-cli manage apply-crio \
+  --openshift_type=${OPENSHIFT_TYPE}
+  --force=true
 #APPLY-OLM
 ${CLI} manage apply-olm \
 --release=${VERSION} \
@@ -21,6 +25,9 @@ ${CLI} manage setup-instance-ns \
 --cpd_instance_ns=${PROJECT_CPD_INSTANCE} \
 --cpd_operator_ns=${PROJECT_CPD_OPS} \
 --cs_ns=${PROJECT_CPFS_OPS}
+# Create the SCC for Watson Knowledge Catalog
+cpd-cli manage apply-crio \
+  --openshift_type=${OPENSHIFT_TYPE}--components=wkc
 #APPLY CR
 ${CLI} manage apply-cr \
 --components=${COMPONENTS} \
