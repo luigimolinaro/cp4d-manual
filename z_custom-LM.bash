@@ -38,6 +38,10 @@ ${CLI} manage apply-cr \
 --file_storage_class=${STG_CLASS_FILE} \
 --license_acceptance=true \
 --cs_ns=${PROJECT_CPFS_OPS}
+#License Server
+${CLI} manage apply-entitlement \
+--cpd_instance_ns=${PROJECT_CPD_INSTANCE} \
+--entitlement=cpd-enterprise
 #VERIFY Components
 ${CLI} manage get-cr-status \
 --cpd_instance_ns=${PROJECT_CPD_INSTANCE}
