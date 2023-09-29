@@ -32,7 +32,7 @@ ${CLI} manage setup-instance-ns \
 ${CLI} manage apply-crio \
   --openshift_type=${OPENSHIFT_TYPE} --components=wkc \
   --force
-#Custom WKC
+#Custom WKC apply-scc
 ${CLI}  manage apply-scc \
 --cpd_instance_ns=${PROJECT_CPD_INSTANCE} \
 --components=wkc
