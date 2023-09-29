@@ -8,7 +8,7 @@ wget https://github.com/IBM/cpd-cli/releases/download/v12.0.6/cpd-cli-linux-SE-1
 #LOGIN
 ${CLI} manage login-to-ocp --token=${OCP_TOKEN} --server=${OCP_URL}
 # APPLY-CRIO
-cpd-cli manage apply-crio \
+${CLI} manage apply-crio \
   --openshift_type=${OPENSHIFT_TYPE}
   --force=true
 # OPTIONAL (Updating the global image pull secret) 
