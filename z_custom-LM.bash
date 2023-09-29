@@ -30,7 +30,12 @@ ${CLI} manage setup-instance-ns \
 --cs_ns=${PROJECT_CPFS_OPS}
 # Create the SCC for Watson Knowledge Catalog
 ${CLI} manage apply-crio \
-  --openshift_type=${OPENSHIFT_TYPE} --components=wkc --force
+  --openshift_type=${OPENSHIFT_TYPE} --components=wkc \
+  --force
+#Custom WKC
+${CLI}  manage apply-scc \
+--cpd_instance_ns=${PROJECT_CPD_INSTANCE} \
+--components=wkc
 #APPLY CR
 ${CLI} manage apply-cr \
 --components=${COMPONENTS} \
