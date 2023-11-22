@@ -11,29 +11,25 @@ ${CLI} manage login-to-ocp --token=${OCP_TOKEN} --server=${OCP_URL}
 
 # APPLY-CRIO
 ${CLI} manage apply-crio \
-  --openshift_type=${OPENSHIFT_TYPE}
+  --openshift_type=${OPENSHIFT_TYPE} \
   --force=true
-# OPTIONAL (Updating the global image pull secret) 
+# OPTIONAL (Updating the global image pull secret)
 ${CLI} manage add-icr-cred-to-global-pull-secret \
 ${IBM_ENTITLEMENT_KEY}
-
 #APPLY-OLM
 ${CLI} manage apply-olm \
 --release=${VERSION} \
 --components=${COMPONENTS} \
 --cpd_operator_ns=${PROJECT_CPD_OPS} \
 --cs_ns=${PROJECT_CPFS_OPS}
-
 #VERIFY operators
 ${CLI} manage get-olm-artifacts \
 --subscription_ns=${PROJECT_CPFS_OPS}
-
 #SETUP NS
 ${CLI} manage setup-instance-ns \
 --cpd_instance_ns=${PROJECT_CPD_INSTANCE} \
 --cpd_operator_ns=${PROJECT_CPD_OPS} \
 --cs_ns=${PROJECT_CPFS_OPS}
-
 #WKC
 # Create the SCC for Watson Knowledge Catalog
 ${CLI} manage apply-crio \
@@ -52,7 +48,6 @@ ${CLI} manage apply-cr \
 --file_storage_class=${STG_CLASS_FILE} \
 --param-file=/tmp/install-options.yml \
 --license_acceptance=true
-
 #APPLY CR
 ${CLI} manage apply-cr \
 --components=${COMPONENTS} \
