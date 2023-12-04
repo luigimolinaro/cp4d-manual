@@ -63,8 +63,8 @@ metadata:
 EOF
 
 #WKC Customization :
-#creare un file "cpd-install-options.yaml" con
-
+#creare un file "cpd-install-options.yaml"
+cat <<EOF > cpd-install-options.yaml
 custom_spec:
   cpd_platform:
     cloudpakfordata: true
@@ -74,6 +74,8 @@ custom_spec:
     enableKnowledgeGraph: True
     enableDataQuality: True
     enableFactSheet: True
+EOF
+
 
 #Install Cloud Pak for Data
 cpd-cli manage apply-cr \
