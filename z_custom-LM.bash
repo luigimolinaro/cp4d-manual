@@ -63,8 +63,8 @@ metadata:
 EOF
 
 #WKC Customization :
-#creare un file "cpd-install-options.yaml"
-cat <<EOF > cpd-install-options.yaml
+#creare un file "install-options.yaml"
+cat <<EOF > install-options.yaml
 custom_spec:
   cpd_platform:
     cloudpakfordata: true
@@ -76,17 +76,7 @@ custom_spec:
     enableFactSheet: True
 EOF
 
-
-#Install Cloud Pak for Data
-cpd-cli manage apply-cr \
---release=${VERSION} \
---cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS} \
---components=${COMPONENTS} \
---block_storage_class=${STG_CLASS_BLOCK} \
---file_storage_class=${STG_CLASS_FILE} \
---license_acceptance=true
-
-#OPTIONAL Install Cloud Pak for Data With Customization
+#Install Cloud Pak for Data With Customization
 cpd-cli manage apply-cr \
 --release=${VERSION} \
 --cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS} \
@@ -94,7 +84,7 @@ cpd-cli manage apply-cr \
 --block_storage_class=${STG_CLASS_BLOCK} \
 --file_storage_class=${STG_CLASS_FILE} \
 --license_acceptance=true \
---param-file=/tmp/work/install-options.yml
+--param-file=./install-options.yml
 
 # GET URL 
 cpd-cli manage get-cpd-instance-details \
