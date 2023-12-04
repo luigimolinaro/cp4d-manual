@@ -6,7 +6,6 @@ wget https://github.com/IBM/cloud-pak-cli/releases/download/v3.23.5/cloudctl-lin
 wget https://github.com/IBM/cpd-cli/releases/download/v13.1.0/cpd-cli-linux-EE-13.1.0.tgz
 tar xvf cpd-cli-linux-EE-13.1.0.tgz
 
-
 #LOGIN
 ${CPDM_OC_LOGIN}
 
