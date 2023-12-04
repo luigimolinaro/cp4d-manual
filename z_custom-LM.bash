@@ -28,10 +28,6 @@ cpd-cli manage apply-cluster-components \
 #SCC che ora si chiama "restricted-v2" dalla versione 4.12 ocp
 #https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=services-creating-scc-embedded-db2-databases#scc-restricted-db2__wkc-title
 
-#Change Kernel parameters
-#https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=settings-changing-kernel-parameter
-cpd-cli manage apply-db2-kubelet
-
 ## INSTALL CLOUD PAK FOR DATA
 #Create namespace
 oc new-project ${PROJECT_CPD_INST_OPERATORS}
