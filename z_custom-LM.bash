@@ -77,7 +77,6 @@ cpd-cli manage apply-cr \
 --param-file=/tmp/work/install-options.yml
 
 # GET URL 
-
 cpd-cli manage get-cpd-instance-details \
 --cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS} \
 --get_admin_initial_credentials=true
