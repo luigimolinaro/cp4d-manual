@@ -8,7 +8,19 @@ tar xvf cpd-cli-linux-EE-13.1.0.tgz
 
 
 #LOGIN
-${CLI} manage login-to-ocp --token=${OCP_TOKEN} --server=${OCP_URL}
+${CPDM_OC_LOGIN}
+
+#UPDATE IBM Entitled Registry
+cpd-cli manage add-icr-cred-to-global-pull-secret \
+--entitled_registry_key=${IBM_ENTITLEMENT_KEY}
+
+#Create PROJECT (Shared components)
+${OC_LOGIN}
+oc new-project ${PROJECT_CERT_MANAGER}
+oc new-project ${PROJECT_LICENSE_SERVICE}
+
+
+
 
 # APPLY-CRIO
 ${CLI} manage apply-crio \
