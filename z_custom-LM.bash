@@ -19,6 +19,37 @@ ${OC_LOGIN}
 oc new-project ${PROJECT_CERT_MANAGER}
 oc new-project ${PROJECT_LICENSE_SERVICE}
 
+#Install Shared components : 
+cpd-cli manage apply-cluster-components \
+--release=${VERSION} \
+--license_acceptance=true \
+--cert_manager_ns=${PROJECT_CERT_MANAGER} \
+--licensing_ns=${PROJECT_LICENSE_SERVICE}
+
+#SCC che ora si chiama "restricted-v2" dalla versione 4.12 ocp
+#https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=services-creating-scc-embedded-db2-databases#scc-restricted-db2__wkc-title
+
+#Change Kernel parameters
+#https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=settings-changing-kernel-parameter
+cpd-cli manage apply-db2-kubelet
+
+## INSTALL CLOUD PAK FOR DATA
+#Create namespace
+oc new-project ${PROJECT_CPD_INST_OPERATORS}
+oc new-project ${PROJECT_CPD_INST_OPERANDS}
+
+#Applying required permission to project (namespace)
+cpd-cli manage authorize-instance-topology \
+--cpd_operator_ns=${PROJECT_CPD_INST_OPERATORS} \
+--cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS}
+
+#Install Fondational Service
+cpd-cli manage setup-instance-topology \
+--release=${VERSION} \
+--cpd_operator_ns=${PROJECT_CPD_INST_OPERATORS} \
+--cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS} \
+--license_acceptance=true \
+--block_storage_class=${STG_CLASS_BLOCK} 
 
 
 
