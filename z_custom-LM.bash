@@ -3,8 +3,9 @@ exit 0
 #SCARICO CLOUDCTL
 wget https://github.com/IBM/cloud-pak-cli/releases/download/v3.23.5/cloudctl-linux-amd64.tar.gz
 #SCARICO cpd-CLI
-wget https://github.com/IBM/cpd-cli/releases/download/v13.0.0/cpd-cli-linux-SE-13.0.0.tgz
-wget https://github.com/IBM/cpd-cli/releases/download/v12.0.6/cpd-cli-linux-SE-12.0.6.tgz
+wget https://github.com/IBM/cpd-cli/releases/download/v13.1.0/cpd-cli-linux-EE-13.1.0.tgz
+tar xvf cpd-cli-linux-EE-13.1.0.tgz
+
 
 #LOGIN
 ${CLI} manage login-to-ocp --token=${OCP_TOKEN} --server=${OCP_URL}
