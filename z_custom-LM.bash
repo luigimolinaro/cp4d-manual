@@ -62,8 +62,18 @@ metadata:
   namespace: ${PROJECT_CPD_INST_OPERATORS}
 EOF
 
-#WKC Customization : 
-# https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=data-specifying-installation-options-services#install-platform-param-file__wkc-parms__title__1
+#WKC Customization :
+#creare un file "cpd-install-options.yaml" con
+
+custom_spec:
+  cpd_platform:
+    cloudpakfordata: true
+    iamIntegration: True
+  wkc:
+    install_wkc_core_only: False
+    enableKnowledgeGraph: True
+    enableDataQuality: True
+    enableFactSheet: True
 
 #Install Cloud Pak for Data
 cpd-cli manage apply-cr \
