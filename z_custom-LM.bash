@@ -52,6 +52,15 @@ cpd-cli manage setup-instance-topology \
 
 # Privileges Db2U
 # https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=data-specifying-privileges-that-db2u-runs
+oc apply -f - <<EOF
+apiVersion: v1
+data:
+  DB2U_RUN_WITH_LIMITED_PRIVS: "false"
+kind: ConfigMap
+metadata:
+  name: db2u-product-cm
+  namespace: ${PROJECT_CPD_INST_OPERATORS}
+EOF
 
 #WKC Customization : 
 # https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=data-specifying-installation-options-services#install-platform-param-file__wkc-parms__title__1
