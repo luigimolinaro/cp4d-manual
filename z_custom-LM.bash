@@ -18,12 +18,18 @@ ${OC_LOGIN}
 oc new-project ${PROJECT_CERT_MANAGER}
 oc new-project ${PROJECT_LICENSE_SERVICE}
 
-#Install Shared components : (ETA: 10 minuti)
+#Install Shared components CERT MANAGER : (ETA: 10 minuti)
 cpd-cli manage apply-cluster-components \
 --release=${VERSION} \
 --license_acceptance=true \
 --cert_manager_ns=${PROJECT_CERT_MANAGER} \
 --licensing_ns=${PROJECT_LICENSE_SERVICE}
+
+#Install Shared components SCHEDULER : (ETA: 10 minuti)
+cpd-cli manage apply-scheduler \
+--release=${VERSION} \
+--license_acceptance=true \
+--scheduler_ns=${PROJECT_SCHEDULING_SERVICE}
 
 ## INSTALL CLOUD PAK FOR DATA
 #Create namespace
