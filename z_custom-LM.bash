@@ -62,6 +62,12 @@ cpd-cli manage setup-instance-topology \
 --license_acceptance=true \
 --block_storage_class=${STG_CLASS_BLOCK} 
 
+#Install the operators in the operators project for the instance. (ETA: 10 min)
+cpd-cli manage apply-olm \
+--release=${VERSION} \
+--cpd_operator_ns=${PROJECT_CPD_INST_OPERATORS} \
+--components=${COMPONENTS}
+
 #WKC Customization :
 #creare un file "install-options.yaml"
 cat <<EOF > ./cpd-cli-workspace/olm-utils-workspace/work/install-options.yaml
@@ -76,7 +82,7 @@ custom_spec:
     enableFactSheet: True
 EOF
 
-#Install Cloud Pak for Data With Customization (ETA: 19.46 
+#Install Cloud Pak for Data With Customization (ETA: 20.0
 cpd-cli manage apply-cr \
 --release=${VERSION} \
 --cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS} \
