@@ -79,14 +79,6 @@ cpd-cli manage apply-cr \
 --license_acceptance=true \
 --param-file=/tmp/work/install-options.yaml
 
-
-#Enable WKC features
-cpd-cli manage update-cr \
---component=wkc \
---cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS} \
---cpd_operator_ns=${PROJECT_CPD_INST_OPERATORS} \
---patch="{\"enableKnowledgeGraph\":True,\"enableDataQuality\":True}"
-
 # GET URL 
 cpd-cli manage get-cpd-instance-details \
 --cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS} \
