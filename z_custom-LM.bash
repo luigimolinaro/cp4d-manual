@@ -76,7 +76,7 @@ custom_spec:
     enableFactSheet: True
 EOF
 
-#Install Cloud Pak for Data With Customization (ETA: 18.32
+#Install Cloud Pak for Data With Customization (ETA: 19.46 
 cpd-cli manage apply-cr \
 --release=${VERSION} \
 --cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS} \
