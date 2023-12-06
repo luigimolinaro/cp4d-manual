@@ -17,6 +17,7 @@ cpd-cli manage add-icr-cred-to-global-pull-secret \
 ${OC_LOGIN}
 oc new-project ${PROJECT_CERT_MANAGER}
 oc new-project ${PROJECT_LICENSE_SERVICE}
+oc new-project ${PROJECT_SCHEDULING_SERVICE}
 
 #Install Shared components CERT MANAGER : (ETA: 10 minuti)
 cpd-cli manage apply-cluster-components \
