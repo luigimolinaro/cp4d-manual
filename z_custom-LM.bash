@@ -18,7 +18,7 @@ ${OC_LOGIN}
 oc new-project ${PROJECT_CERT_MANAGER}
 oc new-project ${PROJECT_LICENSE_SERVICE}
 
-#Install Shared components : 
+#Install Shared components : (ETA: 10 minuti)
 cpd-cli manage apply-cluster-components \
 --release=${VERSION} \
 --license_acceptance=true \
