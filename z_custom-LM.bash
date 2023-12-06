@@ -25,26 +25,10 @@ cpd-cli manage apply-cluster-components \
 --cert_manager_ns=${PROJECT_CERT_MANAGER} \
 --licensing_ns=${PROJECT_LICENSE_SERVICE}
 
-#SCC che ora si chiama "restricted-v2" dalla versione 4.12 ocp
-#https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=services-creating-scc-embedded-db2-databases#scc-restricted-db2__wkc-title
-
 ## INSTALL CLOUD PAK FOR DATA
 #Create namespace
 oc new-project ${PROJECT_CPD_INST_OPERATORS}
 oc new-project ${PROJECT_CPD_INST_OPERANDS}
-
-#Applying required permission to project (namespace)
-cpd-cli manage authorize-instance-topology \
---cpd_operator_ns=${PROJECT_CPD_INST_OPERATORS} \
---cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS}
-
-#Install Fondational Service
-cpd-cli manage setup-instance-topology \
---release=${VERSION} \
---cpd_operator_ns=${PROJECT_CPD_INST_OPERATORS} \
---cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS} \
---license_acceptance=true \
---block_storage_class=${STG_CLASS_BLOCK} 
 
 # Privileges Db2U
 # https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=data-specifying-privileges-that-db2u-runs
@@ -57,6 +41,19 @@ metadata:
   name: db2u-product-cm
   namespace: ${PROJECT_CPD_INST_OPERATORS}
 EOF
+
+#Applying required permission to project (namespace)
+cpd-cli manage authorize-instance-topology \
+--cpd_operator_ns=${PROJECT_CPD_INST_OPERATORS} \
+--cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS}
+
+#Install Fondational Service (ETA : 5 minuti)
+cpd-cli manage setup-instance-topology \
+--release=${VERSION} \
+--cpd_operator_ns=${PROJECT_CPD_INST_OPERATORS} \
+--cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS} \
+--license_acceptance=true \
+--block_storage_class=${STG_CLASS_BLOCK} 
 
 #WKC Customization :
 #creare un file "install-options.yaml"
@@ -72,7 +69,7 @@ custom_spec:
     enableFactSheet: True
 EOF
 
-#Install Cloud Pak for Data With Customization
+#Install Cloud Pak for Data With Customization (ETA: 18.32
 cpd-cli manage apply-cr \
 --release=${VERSION} \
 --cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS} \
@@ -80,7 +77,15 @@ cpd-cli manage apply-cr \
 --block_storage_class=${STG_CLASS_BLOCK} \
 --file_storage_class=${STG_CLASS_FILE} \
 --license_acceptance=true \
---param-file=./install-options.yml
+--param-file=/tmp/work/install-options.yaml
+
+
+#Enable WKC features
+cpd-cli manage update-cr \
+--component=wkc \
+--cpd_instance_ns=${PROJECT_CPD_INST_OPERANDS} \
+--cpd_operator_ns=${PROJECT_CPD_INST_OPERATORS} \
+--patch="{\"enableKnowledgeGraph\":True,\"enableDataQuality\":True}"
 
 # GET URL 
 cpd-cli manage get-cpd-instance-details \
