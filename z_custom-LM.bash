@@ -64,7 +64,7 @@ cpd-cli manage setup-instance-topology \
 
 #WKC Customization :
 #creare un file "install-options.yaml"
-cat <<EOF > install-options.yaml
+cat <<EOF > ./cpd-cli-workspace/olm-utils-workspace/work/install-options.yaml
 custom_spec:
   cpd_platform:
     cloudpakfordata: true
